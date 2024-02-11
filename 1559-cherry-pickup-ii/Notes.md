@@ -1,1 +1,1 @@
-<h2>cherry-pickup-ii Notes</h2><hr>We have 9 possibilities ()
+<h2>cherry-pickup-ii Notes</h2><hr>We have 9 possibilities (3 * 3)
