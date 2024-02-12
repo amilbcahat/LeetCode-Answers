@@ -1,1 +1,1 @@
-<h2>majority-element Notes</h2><hr>Boyer 
+<h2>majority-element Notes</h2><hr>Boyer - Moore Algorithm
