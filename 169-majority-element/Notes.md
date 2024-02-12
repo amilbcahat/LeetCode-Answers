@@ -1,1 +1,1 @@
-<h2>majority-element Notes</h2><hr>Boyer - Moore Algorithm
+<h2>majority-element Notes</h2><hr>Boyer - Moore Algorithm (Would only work for Majority element case !)
