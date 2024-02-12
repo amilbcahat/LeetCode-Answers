@@ -1,7 +1,7 @@
 class Solution:
     def majorityElement(self, nums: List[int]) -> int:
 
-        #Boyer - Moore Algorithm 
+        #Boyer - Moore Algorithm (Would only work for Majority element case !)
         #BAsically , we cancel out the frequencies , by going through the array
         #And get the element with majority 
         res , count = 0 , 0 
