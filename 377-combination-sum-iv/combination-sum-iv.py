@@ -1,19 +1,28 @@
 class Solution:
     def combinationSum4(self, nums: List[int], target: int) -> int:
-        #Bottom - up Approach !
-        dp = [0] * (target + 1)
-        #To reach 0 target , we can do it in one way ! (this was diff in coin change problem , where we had to take dp[0] = 0, because , to reach 0 , we
-        #We did not require any coins)
-        dp[0] = 1
-        for i in range(target + 1):
+        #Bottom Up Approach (Neetcode solution, simpler code , same concept !) -> 
+        dp = {0 : 1}
+        for total in range(1 , target + 1):
+            dp[total] = 0 
             for n in nums : 
-                if i - n >= 0 :
-                    #We add all the subproblem ways  
-                    #Unlike coin change problem , where , we just had to take min , number of coins 
-                    dp[i] = dp[i] + dp[i - n]
+                dp[total] += dp.get(total - n , 0)
+        return dp[total]
 
-        print(dp)
-        return dp[-1]
+
+        # #Bottom - up Approach (Coin Change Concept)!
+        # dp = [0] * (target + 1)
+        # #To reach 0 target , we can do it in one way ! (this was diff in coin change problem , where we had to take dp[0] = 0, because , to reach 0 , we
+        # #We did not require any coins)
+        # dp[0] = 1
+        # for i in range(target + 1):
+        #     for n in nums : 
+        #         if i - n >= 0 :
+        #             #We add all the subproblem ways  
+        #             #Unlike coin change problem , where , we just had to take min , number of coins 
+        #             dp[i] = dp[i] + dp[i - n]
+
+        # print(dp)
+        # return dp[-1]
 
 
         #Top - Down Approach !
