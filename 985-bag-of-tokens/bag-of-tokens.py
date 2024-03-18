@@ -21,6 +21,7 @@ class Solution:
                 score -= 1 
                 maxScore = max(score ,maxScore)
                 if score < 0 : 
+                    #Score can't be negative !
                     return maxScore 
                 print("r" , r , power , score)
 
