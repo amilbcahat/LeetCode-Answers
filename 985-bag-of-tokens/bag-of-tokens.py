@@ -30,4 +30,31 @@ class Solution:
 
         return maxScore 
 
+#neetCode Solution 
+        # tokens.sort()
+        # print(tokens)
+        # l ,r = 0 ,len(tokens) - 1
+        # score = 0 
+        # maxScore = 0
+        # #Increment left pointer to increment and maximize the scores 
+        # #Decrement with right pointer , to survive and not let the conditions die !
+        # while l <= r : 
+        #     if power >= tokens[l]:
+        #         power = power - tokens[l]
+        #         l += 1
+        #         score += 1 
+        #         maxScore = max(score ,maxScore)
+        #         print("l" , l , power , score)
+            
+        #     elif score > 0 : 
+        #         power = power + tokens[r]
+        #         r -= 1 
+        #         score -= 1 
+        #         print("r" , r , power , score)
+        #     else :
+        #         break 
+
+        # return maxScore 
+
+
         
