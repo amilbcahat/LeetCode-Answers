@@ -5,7 +5,7 @@ class Solution:
         # length of string , so its like , ek teer do nishaane !!)
 
         #Dynamic PRogramming method (less intuitive)-
-        dp = {0 : 1} # length -> num of strs 
+        dp = {0 : 1} # length -> num of strs , just a normal base case !
         mod = 10 ** 9 + 7 
         #There is no need of low <= x <= high , check , since , 1 - D array has length of max high and starts from low , so its kind of obvious 
         #That string is built from 
