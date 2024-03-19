@@ -12,13 +12,9 @@ class Solution:
             if resLen in cache : 
                 return cache[resLen]
             
-            if low <= resLen <= high: 
-                #One Good String found !
-                res = 1 
-            else : 
-                res = 0 
+            res = 1 if resLen >= low else 0 
 
-            res += (dfs(resLen + zero)%mod + dfs(resLen + one)%mod)
+            res += (dfs(resLen + zero)+ dfs(resLen + one))
 
             cache[resLen] = res % mod 
             
