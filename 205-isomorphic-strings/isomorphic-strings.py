@@ -2,7 +2,7 @@ class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         #Simple mapping 
         mp = defaultdict(str)
-        alreadyMapped = set()
+        
         for i in range(len(s)) : 
             if s[i] not in mp : 
                 mp[s[i]] = t[i]
