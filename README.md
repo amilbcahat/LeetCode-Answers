@@ -5,5 +5,4 @@
 2. Unique Binary Search Trees (catlan number C(i - 1)(n - i))
 
 ## Daily -> 
-Word Search -> dfs(r , c , i)
-   
+1. Word Search -> dfs(r , c , i)   
