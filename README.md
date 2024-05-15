@@ -17,5 +17,5 @@
 2. Add one row to Tree -> cur.right , cur.left manipulation
 3. Find the Safest Path in a Grid -> Multisource BFS ,then Djikshtra to find the maximum safeness factor path and the minimum distance along it .
 
-# Insane Problems -> 
+## Insane Problems -> 
 1.Find the Safest Path in a Grid -> Multisource BFS ,then Djikshtra to find the maximum safeness factor path and the minimum distance along it .
