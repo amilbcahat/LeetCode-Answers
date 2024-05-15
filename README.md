@@ -9,7 +9,13 @@
 1. Valid Parenthesis String (Take two stacks left and ast , pop when matched with Right parentheses , then match left and ast)
 2. Traverse from left , remove extra ) . Traverse from right , filter extra ( 
 
+#Graph -> 
+1.Find the Safest Path in a Grid -> Multisource BFS ,then Djikshtra to find the maximum safeness factor path and the minimum distance along it .
 
 ## Daily -> 
 1. Word Search -> dfs(r , c , i)
-2. Add one row to Tree -> cur.right , cur.left manipulation 
+2. Add one row to Tree -> cur.right , cur.left manipulation
+3. Find the Safest Path in a Grid -> Multisource BFS ,then Djikshtra to find the maximum safeness factor path and the minimum distance along it .
+
+Insane Problems -> 
+1.Find the Safest Path in a Grid -> Multisource BFS ,then Djikshtra to find the maximum safeness factor path and the minimum distance along it .
