@@ -7,7 +7,7 @@ class Solution:
         def dfs(i , A , L): 
             if A >= 2 or L >= 3 : 
                 return 0 
-
+####
             if i == 0 :
                 return 1 
 
