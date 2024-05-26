@@ -19,3 +19,5 @@
 
 ## Insane Problems -> 
 1.Find the Safest Path in a Grid -> Multisource BFS ,then Djikshtra to find the maximum safeness factor path and the minimum distance along it .
+2.Find number of Beautiful Subsets 
+3.Student Attendance Record 1 -> Pure Maths and DP 
