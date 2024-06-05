@@ -3,33 +3,46 @@ class Solution:
         """
         Do not return anything, modify matrix in-place instead.
         """
-        rows , cols = len(matrix) , len(matrix[0])
-        rowZero = False 
-        
-        #Same way as before but here , we follow left to right approach 
-        for r in range(rows):
-            for c in range(cols):
-                if matrix[r][c] == 0 : 
-                    #Mark corresponding 0 in first row as 0 
-                    matrix[0][c] = 0 
-                    # col is first col then mark them as zero 
-                    if r > 0 : 
-                        matrix[r][0] = 0 
-                    else : 
-                    #If first row contains zero 
-                        rowZero = True 
-        
-        #Mark zeroes in other rows and cols other than first row and first col
-        for r in range(1,rows):
-            for c in range(1,cols):
-                if matrix[r][0] == 0 or matrix[0][c] == 0 : 
-                    matrix[r][c] = 0 
 
-        #If first element is zero , then mark entire first col as zero 
-        if matrix[0][0] == 0 :
-            for r in range(rows):
-                matrix[r][0] = 0 
-        #If first row iz zero then mark that row as zero 
-        if rowZero : 
-            for c in range(cols):
-                matrix[0][c] = 0 
+        # if not matrix:
+        #     return
+
+        rowFirstHasZero = False 
+        colFirstHasZero = False 
+
+        rows, cols = len(matrix), len(matrix[0])
+
+        #Check for zero in first row -> 
+        for i in range(cols):
+            if matrix[0][i] == 0 : 
+                rowFirstHasZero = True 
+
+        #Check for zero in first col ->
+        for j in range(rows):
+            if matrix[j][0] == 0 : 
+                colFirstHasZero = True 
+
+
+        #Use first row and first col has cache for storing zeroes 
+        for i in range(rows):
+            for j in range(cols):
+                if matrix[i][j] == 0:
+                    matrix[i][0] = 0
+                    matrix[0][j] = 0
+        
+        #If 0 in first row or col , mark that col and row with zeroes 
+        for i in range(1,rows):
+            for j in range(1,cols):
+                if matrix[0][j] == 0 or matrix[i][0] == 0:
+                    matrix[i][j] = 0
+
+        print(rowFirstHasZero , colFirstHasZero)
+        
+        #If The first row had a zero initially make it full of zeroes 
+        if rowFirstHasZero : 
+            matrix[0] = cols*[0] 
+
+        #If The first col had a zero initially make it full of zeroes 
+        if colFirstHasZero : 
+            for i in range(rows) :
+                matrix[i][0] = 0 
