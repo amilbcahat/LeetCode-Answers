@@ -24,3 +24,4 @@
 
 ## TCS Prime Practice -> 
 1. Zig Zag Conversion 
+2. Text Justification
