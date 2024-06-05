@@ -26,4 +26,4 @@
 1. Zig Zag Conversion 
 2. Text Justification
 3. Longest Palindromic Substring
-4. 
+4. Pow(x ,n)
