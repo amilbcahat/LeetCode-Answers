@@ -31,4 +31,4 @@
 6. Diagonal Sum
 7. Larget Odd Number in a string
 8. Image Smoother
-9. 
+9. Largest Local Values in a Matrix
