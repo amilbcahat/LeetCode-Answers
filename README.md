@@ -32,3 +32,4 @@
 7. Larget Odd Number in a string
 8. Image Smoother
 9. Largest Local Values in a Matrix
+10. Rotate Image
