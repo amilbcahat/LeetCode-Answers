@@ -6,6 +6,7 @@ class Solution:
         top , bottom = 0 , len(matrix)
         left , right = 0 , len(matrix[0])
 
+        #Rest logic borrowed from Spiral Matrix 1 
         y = 0 
         while top < bottom and left < right : 
 
@@ -19,6 +20,7 @@ class Solution:
                 y += 1 
             right -= 1
 
+            #When both out of bounce
             if bottom > top and left > right :
                 break 
 
