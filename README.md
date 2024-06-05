@@ -29,3 +29,4 @@
 4. Pow(x ,n)
 5. Tranpose Matrix
 6. Diagonal Sum
+7. Larget Odd Number in a string
