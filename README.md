@@ -24,7 +24,7 @@
 
 ## TCS Prime Practice -> 
 
-# Matrices -> 
+### Matrices -> 
 1. Zig Zag Conversion 
 2. Text Justification
 3. Longest Palindromic Substring
@@ -41,4 +41,4 @@
 14. Shift 2D
 15. Largest Submatrix With Rearrangements
 
-# Strings -> 
+### Strings -> 
