@@ -23,6 +23,8 @@
 3. Student Attendance Record 1 -> Pure Maths and DP 
 
 ## TCS Prime Practice -> 
+
+#Matrices -> 
 1. Zig Zag Conversion 
 2. Text Justification
 3. Longest Palindromic Substring
@@ -38,3 +40,5 @@
 13. Set Matrix Zeroes
 14. Shift 2D
 15. Largest Submatrix With Rearrangements
+
+#Strings -> 
