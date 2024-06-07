@@ -38,7 +38,7 @@
 11. Spiral Matrix
 12. Spiral Matrix 2 (Reverse of Spiral Matrix 1)
 13. Set Matrix Zeroes
-14. Shift 2D
+14. Shift 2D -> valToPos (v // N , v % N) , posToVal (r * N +  c) [Convert 2D to 1D then rotate and get targetIndex] 
 15. Largest Submatrix With Rearrangements
 
 ### Strings / Arrays / Complex DP Problems on Same -> 
@@ -47,4 +47,5 @@
 3. Remove Element
 4. Remove Duplicates from Sorted Array
 5. Remove Duplicates from Sorted Array II
-6. Majority Element
+6. Majority Element -> Booye - Moore Algo 
+7. Rotate Array -> (i - k) % len(nums) [Inspired from Shift 1D]
