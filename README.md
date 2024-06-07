@@ -26,7 +26,7 @@
 
 ### Matrices -> 
 
-#### Day 1 -
+#### Day 1 
 
 1. Zig Zag Conversion 
 2. Text Justification
