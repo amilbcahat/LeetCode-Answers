@@ -42,6 +42,9 @@
 15. Largest Submatrix With Rearrangements
 
 ### Strings / Arrays / Complex DP Problems on Same -> 
+
+#### Day 1 
+
 1. Group Anagrams
 2. Merge Sorted Array
 3. Remove Element
