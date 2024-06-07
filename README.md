@@ -47,3 +47,4 @@
 3. Remove Element
 4. Remove Duplicates from Sorted Array
 5. Remove Duplicates from Sorted Array II
+6. Majority Element
