@@ -7,6 +7,7 @@ class Solution:
         m = m - 1 
         n = n - 1 
 
+        #Merge in Reverse order to , fill up the zeroes !
         while m >= 0 and n >= 0 : 
             if nums1[m] < nums2[n]:
                 nums1[last] = nums2[n]
