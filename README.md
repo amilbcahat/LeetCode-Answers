@@ -25,6 +25,9 @@
 ## TCS Prime Practice -> 
 
 ### Matrices -> 
+
+#### Day 1 -
+
 1. Zig Zag Conversion 
 2. Text Justification
 3. Longest Palindromic Substring
@@ -43,7 +46,7 @@
 
 ### Strings / Arrays / Complex DP Problems on Same -> 
 
-#### Day 1 
+#### Day 3 
 
 1. Group Anagrams
 2. Merge Sorted Array
