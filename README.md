@@ -49,3 +49,4 @@
 5. Remove Duplicates from Sorted Array II
 6. Majority Element -> Booye - Moore Algo 
 7. Rotate Array -> (i - k) % len(nums) [Inspired from Shift 1D]
+8. Best Time to Buy and Sell Stock
