@@ -50,3 +50,5 @@
 6. Majority Element -> Booye - Moore Algo 
 7. Rotate Array -> (i - k) % len(nums) [Inspired from Shift 1D]
 8. Best Time to Buy and Sell Stock -> update buyPrice , with every price to find max profit (Kadane algo)
+9. Best Time to Buy and Sell Stock II -> Sell whenever see a dip , buy when see a raise , (Can use Neetcode DFS template as well)
+10. Jump Game 
