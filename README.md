@@ -61,3 +61,5 @@
 
 #### Day 4 
 1. Jump Game II -> BFS , Top Down DP , Bottoms Up DP
+2. Insert Delete GetRandom O(1)
+3. 
