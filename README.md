@@ -60,4 +60,4 @@
 10. Jump Game -> DP (Try the DP memo way , with False and last pos True ) . Greedy -> Move goal as you iterate backwards , on successful reachs , if goal reaches 0 then Return True else False
 
 #### Day 4 
-13. Jump Game II -> BFS , Top Down DP , Bottoms Up DP
+1. Jump Game II -> BFS , Top Down DP , Bottoms Up DP
