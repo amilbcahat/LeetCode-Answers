@@ -69,5 +69,5 @@
 7. Roman to Integer -> Do as told
 8. Integer to Roman -> Build Own Roman List
 9. Length of Last Word -> Use Pointers Efficiently
-10. 
+10. Length of Last Word -> Use nested loops to match prefix validity with each string in strs
 
