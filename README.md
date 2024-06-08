@@ -67,4 +67,5 @@
 5. Candy -> Prefix and Postfix Logic
 6. Trapping Rain Water -> Two Pointer O(1) memory leftMax , rightMax on ends , leftMax of heights so far in O(n) memory.
 7. Roman to Integer -> Do as told
+8. Integer to Roman -> Own Roman List 
 
