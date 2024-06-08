@@ -58,4 +58,6 @@
 8. Best Time to Buy and Sell Stock -> update buyPrice , with every price to find max profit (Kadane algo)
 9. Best Time to Buy and Sell Stock II -> Sell whenever see a dip , buy when see a raise , (Can use Neetcode DFS template as well)
 10. Jump Game -> DP (Try the DP memo way , with False and last pos True ) . Greedy -> Move goal as you iterate backwards , on successful reachs , if goal reaches 0 then Return True else False
-11. Jump Game II -> BFS , Top Down DP , Bottoms Up DP
+
+#### Day 4 
+13. Jump Game II -> BFS , Top Down DP , Bottoms Up DP
