@@ -62,4 +62,5 @@
 #### Day 4 
 1. Jump Game II -> BFS , Top Down DP , Bottoms Up DP
 2. Insert Delete GetRandom O(1) -> Use List + HashMap
-3. 
+3. Product of Array Except Self -> Prefix , Postfix
+
