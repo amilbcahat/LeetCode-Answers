@@ -64,4 +64,5 @@
 2. Insert Delete GetRandom O(1) -> Use List + HashMap
 3. Product of Array Except Self -> Prefix , Postfix
 4. Gas Station -> Greeding , Eliminate Wrong cases , Then look for the Unique SOlution and use Kadane's Algo
+5. Candy -> Prefix and Postfix Logic 
 
