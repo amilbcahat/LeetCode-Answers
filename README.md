@@ -73,3 +73,9 @@
 11. Reverse Words in a String -> Make a function to handle moving index to skip spaces , rest would be easy
 12. Find the Index of the First Occurrence in a String
 
+#### Day 4 
+1. Factorial Trailing Zeroes -> Divide and find the total factors of the multiples of 5 within that digit range
+2. Fibonacci Number
+3. Maximum Subarray -> Kadane's Algorithm
+4. Reverse String
+5. Valid Palindrome -> Check for isalpha by using ord(ch)
