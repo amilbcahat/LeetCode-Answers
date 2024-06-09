@@ -1,5 +1,39 @@
 class Solution:
     def sortArray(self, nums: List[int]) -> List[int]:
+        #Quick Sort(Not stable , inplace)
+        # l , r = 0 , len(nums) - 1 
+
+
+        # def quickSort(arr , l , r):
+        #     # >= ensures that recursion stops  
+        #     if l >= r : 
+        #         return arr 
+
+        #     pivot = arr[r]
+        #     left = l 
+
+        #     for i in range(l , r): 
+        #         #Spot for pivot is left out 
+        #         #Left pointer puts the less value than pivot at start 
+        #         if arr[i] < pivot :
+        #             tmp = arr[left]
+        #             arr[left] = arr[i]
+        #             arr[i] = tmp 
+        #             left += 1 
+
+        #     #Swap the pivot with left point , to partition the array 
+        #     arr[r] = arr[left]
+        #     arr[left] = pivot
+
+        #     #Partition on basis of pivot and recursively sort them 
+        #     quickSort(arr , l , left - 1)
+        #     quickSort(arr , left + 1 , r)
+
+        #     return arr 
+
+        # return quickSort(nums , 0 , len(nums) - 1)
+
+
         #Merge Sort (Stable)
         def merge(arr , L  , M , R):
             left , right = arr[L : M + 1] , arr[M + 1 : R + 1]
