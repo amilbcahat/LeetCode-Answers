@@ -79,3 +79,5 @@
 3. Maximum Subarray -> Kadane's Algorithm
 4. Reverse String
 5. Valid Palindrome -> Check for isalpha by using ord(ch)
+6. Linked List Cycle
+7. Middle Element of Linked List
