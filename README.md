@@ -82,3 +82,8 @@
 6. Linked List Cycle
 7. Middle Element of Linked List
 8. Merge Two Sorted Lists
+9. Squares of a Sorted Array -> Two pointer at both end (neg and pos can have greatest values , so consider small of them and move pointer like that)
+10. Valid Perfect Square -> Binary Search to get , mid * mid == num 
+11. Sqrt(x) -> Binary Search to get mid ** 2 == x , elif mid ** 2 < x , both can have answer
+12. Sort an Array -> Merge Sort , Insertion sort and Quick Sort
+13. Sort Colors -> Bucket sort 
