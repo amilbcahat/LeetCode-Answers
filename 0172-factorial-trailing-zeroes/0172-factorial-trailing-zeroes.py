@@ -1,6 +1,10 @@
 class Solution:
     def trailingZeroes(self, n: int) -> int:
+        
+        #Read intuition here -> https://www.purplemath.com/modules/factzero.htm
         return n//5 + n//25 +n//125 + n//625 + n//3125
+
+        
         #Brute force 
         # ans = 1 
 
