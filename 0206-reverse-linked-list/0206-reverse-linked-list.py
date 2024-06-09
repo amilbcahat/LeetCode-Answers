@@ -5,18 +5,31 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        prev = None 
-        cur = head  
+        # Recursive 
+        def dfs(cur , prev):
+            if cur is None : 
+                return prev 
 
-        #Just notice the ordering 
-        # 1. Cur moves forward
-        # 2. Temp.next = prev
-        # 3 .Prev increments by equalling to temp  ! 
+            else : 
+                nxt = cur.next 
+                cur.next = prev 
+                return dfs(nxt , cur)
 
-        while cur : 
-            temp = cur 
-            cur = cur.next 
-            temp.next = prev 
-            prev = temp 
+        return dfs(head , None)
+        # Iterative 
+        # prev = None 
+        # cur = head  
+
+        # #Just notice the ordering 
+        # # 1. Cur moves forward
+        # # 2. Temp.next = prev
+        # # 3 .Prev increments by equalling to temp  ! 
+
+        # while cur : 
+        #     temp = cur 
+        #     cur = cur.next 
+        #     temp.next = prev 
+        #     prev = temp 
         
-        return prev 
+        # return prev 
+
