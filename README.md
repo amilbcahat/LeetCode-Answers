@@ -86,4 +86,5 @@
 10. Valid Perfect Square -> Binary Search to get , mid * mid == num 
 11. Sqrt(x) -> Binary Search to get mid ** 2 == x , elif mid ** 2 < x , both can have answer
 12. Sort an Array -> Merge Sort , Insertion sort and Quick Sort
-13. Sort Colors -> Bucket sort 
+13. Sort Colors -> Bucket sort
+14. Reverse a Linked List -> Recursive and iterative 
