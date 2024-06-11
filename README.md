@@ -87,4 +87,15 @@
 11. Sqrt(x) -> Binary Search to get mid ** 2 == x , elif mid ** 2 < x , both can have answer
 12. Sort an Array -> Merge Sort , Insertion sort and Quick Sort
 13. Sort Colors -> Bucket sort
-14. Reverse a Linked List -> Recursive and iterative 
+14. Reverse a Linked List -> Recursive and iterative
+
+#### Day 6
+1. Maximum Product Subarray -> Kadane Algo , but keep mind of curMin , curMax and zero element in array
+2. Palindromic Substrings -> count for even and odd Pali
+3. Longest Increasing Subsequence -> dp[i] = max(dp[i] , 1 + dp[j]) if condition met 
+4. LCS -> dp[i][j] = dp[i + 1][j + 1] , dp[i]j] = max(dp[i + 1][j] , dp[i][j + 1] , for specific condition
+5. Longest Palindromic Subsequence -> expand outward then use LCS logic , Find LCS of s and s[::-1]
+6. Longest Substring Without Repeating Characters -> Use Sliding Window
+7. Minimum Size Subarray Sum -> Sliding Window
+8. Subarray sum Equals K -> Calculate prefixSum and their count , see if chop = curSum - k , is available in hashmap , if yes , add to res
+9. 
