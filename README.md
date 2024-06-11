@@ -98,4 +98,4 @@
 6. Longest Substring Without Repeating Characters -> Use Sliding Window
 7. Minimum Size Subarray Sum -> Sliding Window
 8. Subarray sum Equals K -> Calculate prefixSum and their count , see if chop = curSum - k , is available in hashmap , if yes , add to res
-9. 
+9. Binary Subarrays With Sum-> Sliding window can be used to calculate atleast cases , use this to calculate sum to exact goal helper(goal) - helper(goal - 1)
