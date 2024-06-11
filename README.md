@@ -89,7 +89,7 @@
 13. Sort Colors -> Bucket sort
 14. Reverse a Linked List -> Recursive and iterative
 
-#### Day 6
+#### Day 6 (SubArray , Substrings etc)
 1. Maximum Product Subarray -> Kadane Algo , but keep mind of curMin , curMax and zero element in array
 2. Palindromic Substrings -> count for even and odd Pali
 3. Longest Increasing Subsequence -> dp[i] = max(dp[i] , 1 + dp[j]) if condition met 
