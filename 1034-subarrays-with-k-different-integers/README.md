@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/subarrays-with-k-different-integers">Subarrays with K Different Integers</a></h2> <img src='https://img.shields.io/badge/Difficulty-Hard-red' alt='Difficulty: Hard' /><hr><p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the number of <strong>good subarrays</strong> of </em><code>nums</code>.</p>
+<h2><a href="https://leetcode.com/problems/subarrays-with-k-different-integers">1034. Subarrays with K Different Integers</a></h2><h3>Hard</h3><hr><p>Given an integer array <code>nums</code> and an integer <code>k</code>, return <em>the number of <strong>good subarrays</strong> of </em><code>nums</code>.</p>
 
 <p>A <strong>good array</strong> is an array where the number of different integers in that array is exactly <code>k</code>.</p>
 
