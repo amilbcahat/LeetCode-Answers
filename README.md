@@ -99,3 +99,4 @@
 7. Minimum Size Subarray Sum -> Sliding Window
 8. Subarray sum Equals K -> Calculate prefixSum and their count , see if chop = curSum - k , is available in hashmap , if yes , add to res
 9. Binary Subarrays With Sum-> Sliding window can be used to calculate atleast cases , use this to calculate sum to exact goal helper(goal) - helper(goal - 1)
+10. Subarray Product Less Than K -> Sliding window but with Division 
