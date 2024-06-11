@@ -101,3 +101,6 @@
 9. Binary Subarrays With Sum-> Sliding window can be used to calculate atmost cases , use this to calculate sum to exact goal helper(goal) - helper(goal - 1)
 10. Subarray Product Less Than K -> Sliding window but with Division
 11. Subarrays with K Different Integers -> Count of SubArrays with K Distinct Elements = Count of SubArrays with At Most K Distinct Elements - Count of SubArrays with At Most K-1 Distinct Elements
+
+#### Day 7 
+1.
