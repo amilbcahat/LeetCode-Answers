@@ -102,5 +102,7 @@
 10. Subarray Product Less Than K -> Sliding window but with Division
 11. Subarrays with K Different Integers -> Count of SubArrays with K Distinct Elements = Count of SubArrays with At Most K Distinct Elements - Count of SubArrays with At Most K-1 Distinct Elements
 
-#### Day 7 
-1.
+#### Day 8
+1. Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold -> Use Sliding Window (L : k + 1) etc logic
+2. Get Equal Substrings Within Budget -> Sliding Window Basic 
+
