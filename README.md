@@ -109,3 +109,4 @@
 4. Count Number of Homogenous Substrings -> aa can be counted from res += (r - l + 1)
 5. Count Subarrays With Fixed Bounds -> Algo
 6. Largest Substring Between Two Equal Characters
+7. Append Characters to String to Make Subsequence
