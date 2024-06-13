@@ -108,4 +108,4 @@
 3. Count Number of Nice Subarrays -> No. of subarrays with exactly k odd = No. of subarrays with at most k odd - No. of subarrays with at most k-1 odd.
 4. Count Number of Homogenous Substrings -> aa can be counted from res += (r - l + 1)
 5. Count Subarrays With Fixed Bounds -> Algo
-6. 
+6. Largest Substring Between Two Equal Characters
