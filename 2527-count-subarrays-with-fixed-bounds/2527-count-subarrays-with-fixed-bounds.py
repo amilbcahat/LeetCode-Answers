@@ -4,7 +4,7 @@ class Solution:
         lastMaxK = -1
         res = 0 
         culpritIndex = -1
-
+        # https://leetcode.com/problems/count-subarrays-with-fixed-bounds/solutions/4949239/counting-fixed-bound-subarrays-with-two-pointers/
         for i in range(len(nums)):
             if nums[i] > maxK or nums[i] < minK :
                 #Where existing subarray ends 
