@@ -112,3 +112,5 @@
 7. Append Characters to String to Make Subsequence
 8. Is Subsequence
 9. Maximum Number of Vowels in a Substring of Given Length -> Sliding Window on length
+10. Count Subarrays Where Max Element Appears at Least K Times
+11. 
