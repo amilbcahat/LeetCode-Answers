@@ -114,6 +114,21 @@
 9. Maximum Number of Vowels in a Substring of Given Length -> Sliding Window on length
 10. Count Subarrays Where Max Element Appears at Least K Times . Atleast = (Total no. of possible arrays - less than k subarrays )
 
-#### Day 13 (Rest of the questions)  
+#### Day 12 (Rest of the questions)  
 1. Count Primes -> Sieve of Eratosthenes
-2. 
+2. GCD ->
+3. `def gcd( a, b ): 
+    
+    result = min(a , b)
+    
+    while result : 
+        if a % result == 0 and b % result == 0 : 
+            break
+        result -= 1 
+        
+    return result 
+    
+if __name__ == '__main__':
+    a = 98
+    b = 56
+    print(f"GCD of {a} and {b} is {gcd(a, b)}")`
