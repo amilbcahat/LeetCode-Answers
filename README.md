@@ -121,3 +121,4 @@
 4. Leap Year
 5. LCM
 6. Dec to Binary and Vice Versa
+7. Count Primes -> Sieve of Eratosthenes 
