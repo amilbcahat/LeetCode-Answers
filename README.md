@@ -116,19 +116,8 @@
 
 #### Day 12 (Rest of the questions)  
 1. Count Primes -> Sieve of Eratosthenes
-2. GCD ->
-3. `def gcd( a, b ): 
-    
-    result = min(a , b)
-    
-    while result : 
-        if a % result == 0 and b % result == 0 : 
-            break
-        result -= 1 
-        
-    return result 
-    
-if __name__ == '__main__':
-    a = 98
-    b = 56
-    print(f"GCD of {a} and {b} is {gcd(a, b)}")`
+2. GCD
+3. Decimal to Octal
+4. Leap Year
+5. LCM
+6. Dec to Binary and Vice Versa
