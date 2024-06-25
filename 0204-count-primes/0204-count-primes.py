@@ -6,10 +6,10 @@ class Solution:
         isPrime = [True] * n 
         isPrime[0] = isPrime[1] = False 
 
-        for i in range(1 , int(n ** 0.5) + 1): 
-            if (isPrime[i]):
-                for multi_of_i in range(i * i , n , i):
-                    isPrime[multi_of_i] = False 
-        
+        for i in range(2 , int(n ** 0.5) + 1): 
+
+            for multi in range(i * i , n , i):
+                if isPrime[i] : 
+                    isPrime[multi] = False 
+
         return sum(isPrime)
-        
