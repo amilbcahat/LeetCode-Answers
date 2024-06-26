@@ -8,8 +8,9 @@ class Solution:
 
         for i in range(2 , int(n ** 0.5) + 1): 
 
-            for multi in range(i * i , n , i):
-                if isPrime[i] : 
+            if isPrime[i] :  
+                for multi in range(i * i , n , i):
+                    
                     isPrime[multi] = False 
 
         return sum(isPrime)
