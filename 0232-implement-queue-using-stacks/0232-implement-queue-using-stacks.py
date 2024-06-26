@@ -1,5 +1,14 @@
 class MyQueue:
+    #Pop Operation
+# The pop operation (pop()) can be more complex:
 
+# When s2 (the stack used for popping) is not empty, popping from it is an O(1) operation.
+# When s2 is empty, all elements from s1 need to be transferred to s2. This transfer operation is O(n) for n elements.
+# However, after this transfer, the next n-1 pop operations are O(1) because they directly pop from s2.
+# Thus, the expensive O(n) transfer is spread out over multiple pop operations, leading to an average, or amortized, time complexity of O(1) per pop operation.
+
+# Peek Operation
+# The peek operation (peek()) works similarly to the pop operation. It ensures that s2 has elements by transferring from s1 if needed and then peeks the top element of s2. This results in the same amortized O(1) time complexity for the same reasons as the pop operation.
     def __init__(self):
         self.s1 = [] #Stack used for pushing 
         self.s2 = [] #Stack used for popping 
