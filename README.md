@@ -121,4 +121,8 @@
 4. Leap Year
 5. LCM
 6. Dec to Binary and Vice Versa
-7. Count Primes -> Sieve of Eratosthenes 
+7. Count Primes -> Sieve of Eratosthenes
+
+#### Day Untracked - 
+1. Stacks using Queues -> Uses 2 Queues
+2. Queues using Stacks -> Uses 2 Stacks 
