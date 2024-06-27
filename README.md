@@ -125,4 +125,6 @@
 
 #### Day Untracked - 
 1. Stacks using Queues -> Uses 2 Queues
-2. Queues using Stacks -> Uses 2 Stacks 
+2. Queues using Stacks -> Uses 2 Stacks
+3. Special Positions in a Binary Matrix -> getColSum == 1 and sum(row) == 1
+4. Maximum Odd Binary Number -> Count - 1 of 1 + count of zero  + 1  
