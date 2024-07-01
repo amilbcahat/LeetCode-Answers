@@ -130,3 +130,11 @@
 4. Maximum Odd Binary Number -> Count - 1 of 1 + count of zero  + 1
 5. Pascal Triangle
 6. Pascal Triangle 2 
+
+<!---LeetCode Topics Start-->
+# LeetCode Topics
+## Array
+|  |
+| ------- |
+| [1293-three-consecutive-odds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1293-three-consecutive-odds) |
+<!---LeetCode Topics End-->
