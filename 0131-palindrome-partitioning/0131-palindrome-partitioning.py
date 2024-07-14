@@ -10,6 +10,9 @@ class Solution:
                 return 
 
             #aab -> a , aa , aab
+            #a - a - a (Good Partition)
+            #aa - b (Good Partition)
+            #aab - (Not a pali)
             for j in range(i , len(s)):
                 if isPali(i , j) : 
                     part.append(s[i : j + 1])
