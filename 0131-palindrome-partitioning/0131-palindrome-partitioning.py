@@ -5,12 +5,13 @@ class Solution:
         part = []
 
         def dfs(i):
-            if i >= len(s):
+            if i >= len(s) : 
                 ans.append(part.copy())
                 return 
 
+            #aab -> a , aa , aab
             for j in range(i , len(s)):
-                if isPali(i , j):
+                if isPali(i , j) : 
                     part.append(s[i : j + 1])
                     dfs(j + 1)
                     part.pop()
