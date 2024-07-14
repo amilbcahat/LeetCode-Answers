@@ -1,7 +1,11 @@
 class Solution:
     def permute(self, nums: List[int]) -> List[List[int]]:
-        perms = [[]]
 
+        #Neetcode Video 
+        perms = [[]]
+        #[[1]]
+        #[[1 , 2] , [2 , 1]] Add 2 , to every index of both 
+        # Now add 3 at every index of both 
         for n in nums : 
             new_perms = []
             for p in perms : 
