@@ -9,7 +9,7 @@ class Solution:
                 curMax , curMin = 1 , 1 
             oldCurMax = curMax * n
             curMax = max(curMax * n , curMin * n , n)
-            curMin = max(oldCurMax * n , curMin * n  , n)
+            curMin = min(oldCurMax , curMin * n  , n)
             res = max(curMax , curMin , res)
 
         return res 
