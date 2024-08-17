@@ -21,7 +21,7 @@ class Solution:
             #Pass the subproblem (dont include)
             dfs(i + 1 , total))
 
-            dp[(i , target)] = res
+            dp[(i , total)] = res
 
             return res 
         return dfs(0 , target)
