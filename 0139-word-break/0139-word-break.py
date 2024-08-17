@@ -4,6 +4,7 @@ class Solution:
         #considering that we got a valid one at last position !
         dp[len(s)] = True 
 
+        #dp[0] tells that if dp[1:] of the array is able to segment or not 
         for i in range(len(s) - 1 , -1 , -1) : 
             for w in wordDict : 
                 if (i + len(w)) <= len(s) and s[i : i + len(w)] == w : 
