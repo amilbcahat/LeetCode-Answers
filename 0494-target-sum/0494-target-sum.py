@@ -1,20 +1,16 @@
 class Solution:
     def findTargetSumWays(self, nums: List[int], target: int) -> int:
-        
-        cache = {}
-    
-        def dfs(i,total):
-            #Out Of Bounds Base Case ! 
-            if i == len(nums):
-                return 1 if target == total else 0 
-            
-            #Used Caching !
-            if (i,total) in cache : 
-                return cache[(i,total)] 
+        dp = {}
 
-            #Two choices one for positive and one for negative ! 
-            cache[(i,total)] = dfs(i+1, total+nums[i]) + dfs(i+1 , total-nums[i]) 
+        def dfs(i , total) : 
+            if i == len(nums) : 
+                return 1 if total == target else 0 
 
-            return cache[(i,total)]
+            if (i , total) in dp : 
+                return dp[(i , total)]
 
-        return dfs(0,0)
+            dp[(i , total)] = dfs(i + 1 , total + nums[i]) + dfs(i + 1 , total - nums[i])
+
+            return dp[(i , total)]
+
+        return dfs(0 , 0)
