@@ -2,6 +2,7 @@ class Solution:
     def minCostClimbingStairs(self, cost: List[int]) -> int:
         
         #For handling , we go out of the jump
+        #[10 , 15 , 20] 0 
         cost.append(0)
 
         for i in range(len(cost) - 3 , -1 , -1) : 
