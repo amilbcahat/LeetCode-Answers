@@ -11,4 +11,5 @@ class Solution:
             return rob2  
         #Just avoid take last and first element together ! 
         #Added nums[0] here to take care of the edge case of array of size 1 
+        #[We can either include last element or first element here ]
         return max(nums[0],helper(nums[1:]),helper(nums[:-1]))
