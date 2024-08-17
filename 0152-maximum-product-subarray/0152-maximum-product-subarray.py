@@ -10,6 +10,7 @@ class Solution:
             oldCurMax = curMax * n
             curMax = max(curMax * n , curMin * n , n)
             curMin = min(oldCurMax , curMin * n  , n)
+            #Can just have max(curMax , res) as well 
             res = max(curMax , curMin , res)
 
         return res 
