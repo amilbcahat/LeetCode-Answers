@@ -17,4 +17,4 @@ class Solution:
     def alphaNum(self , s) : 
         return (ord("a") <= ord(s) <= ord("z") or 
         ord("A") <= ord(s) <= ord("Z") or 
-        ord("0") <= ord(s) < ord("9"))
+        ord("0") <= ord(s) <= ord("9"))
