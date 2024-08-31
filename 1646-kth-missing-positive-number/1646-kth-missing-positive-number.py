@@ -11,7 +11,7 @@ class Solution:
             if missingNo < k : 
                 l = mid + 1 
                 #This is formula to get the missing No at kth position
-                curGap = k - missingNo
+                # curGap = k - missingNo
             else : 
                 r = mid - 1
 
