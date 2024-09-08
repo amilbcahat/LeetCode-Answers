@@ -23,6 +23,7 @@ class Solution:
         while l <= r : 
             mid = (l + r) // 2 
             if countSplits(mid) > k : 
+                # If countSplits(mid) > k, it means we need more than k subarrays to keep the subarray sums less than or equal to mid. Therefore, mid is too small, and we need to increase it to allow larger sums, moving the left bound up:
                 l = mid + 1 
             else : 
                 #Look for more minimum answer 
