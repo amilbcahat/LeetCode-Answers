@@ -5,6 +5,9 @@
 2. Unique Binary Search Trees (catlan number C(i - 1)(n - i))
 3. Smallest String Starting From Leaf (Take out path for each branch , reverse it , see if lexo is smaller than prev path , track it )
 
+##LinkedList -> 
+1. Odd -Even Linked List - Logic is Easy , to get odd number , see next of even and to get even number , see next of odd number.
+
 ## Stack -> 
 1. Valid Parenthesis String (Take two stacks left and ast , pop when matched with Right parentheses , then match left and ast)
 2. Traverse from left , remove extra ) . Traverse from right , filter extra ( 
