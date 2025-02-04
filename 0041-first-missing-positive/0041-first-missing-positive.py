@@ -1,11 +1,11 @@
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
         #Base Case Handling
-        if len(nums) == 1 : 
-            if nums[0] == 1 : 
-                return 2 
-            else: 
-                return 1
+        # if len(nums) == 1 : 
+        #     if nums[0] == 1 : 
+        #         return 2 
+        #     else: 
+        #         return 1
 
         # #Shifted Negs to Last
         # l , r = 0 , len(nums) - 1
