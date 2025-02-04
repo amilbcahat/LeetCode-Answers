@@ -1,5 +1,6 @@
 class Solution:
     def firstMissingPositive(self, nums: List[int]) -> int:
+        #Base Case Handling
         if len(nums) == 1 : 
             if nums[0] == 1 : 
                 return 2 
@@ -26,9 +27,12 @@ class Solution:
             if nums[i] <= 0: 
                 ind = i
                 break
+
         if ind == -1:
+            #If all positive
             r = len(nums) - 1
         else : 
+            #pos - neg boundary
             r = ind - 1
 
         #Cylic sort to sort pos numbers, index based
@@ -47,4 +51,4 @@ class Solution:
         for i in range(r + 1): 
             if nums[i] != i + 1:
                 return i + 1
-        return r + 2 #+1 , to manage index and +1 to tell for 
+        return r + 2 #+1 , to manage index and +1 to tell for the case where missing number is more than the length of pos number subarray
