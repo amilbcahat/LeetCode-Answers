@@ -149,6 +149,7 @@
 | [0040-combination-sum-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0041-first-missing-positive) |
 | [0046-permutations](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0046-permutations) |
+| [0056-merge-intervals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0056-merge-intervals) |
 | [0074-search-a-2d-matrix](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
 | [0078-subsets](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0090-subsets-ii) |
@@ -348,6 +349,7 @@
 |  |
 | ------- |
 | [0015-3sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0015-3sum) |
+| [0056-merge-intervals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0056-merge-intervals) |
 | [0217-contains-duplicate](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0217-contains-duplicate) |
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0347-top-k-frequent-elements) |
