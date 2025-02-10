@@ -5,10 +5,7 @@ class Solution:
         def greedyChoice(p1, p2):
             if firstList[p1][1] < secondList[p2][1]:
                 p1 += 1
-            elif firstList[p1][1] > secondList[p2][1]:
-                p2 += 1
-            else: 
-                p1 += 1
+            else:
                 p2 += 1
             return p1, p2
 
@@ -16,8 +13,5 @@ class Solution:
             if max(firstList[p1][0], secondList[p2][0]) <= min(firstList[p1][1], secondList[p2][1]):
                 #overlapped !!
                 res.append([max(firstList[p1][0], secondList[p2][0]), min(firstList[p1][1], secondList[p2][1])])
-                p1, p2 = greedyChoice(p1, p2)
-            else: 
-                p1, p2 = greedyChoice(p1, p2)
-
+            p1, p2 = greedyChoice(p1, p2)
         return res
