@@ -7,8 +7,8 @@ class HeapNode:
     def __init__(self, node): 
         self.node = node
     
-    def __lt__(self, other):
-        return self.node.val < other.node.val
+    def __gt__(self, other):
+        return self.node.val > other.node.val
 
 class Solution:
     def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
