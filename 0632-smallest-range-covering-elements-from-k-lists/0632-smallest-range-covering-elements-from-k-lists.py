@@ -1,6 +1,7 @@
 class Solution:
     def smallestRange(self, nums: List[List[int]]) -> List[int]:
         #Maintain two pointer to find range , or lets say 
+        #Deployed here - https://voluble-croquembouche-eccdea.netlify.app
         k = len(nums)
         left  = right = nums[0][0]
         minHeap = []
