@@ -7,7 +7,7 @@ class Solution:
         maxHeap = [] #to get for max minimum capital , most profitable
 
         cur_capital = w
-        affordable_projects = []
+        affordable_projects = [] #Most profitable among available project (under specified capital)
         while (projects or affordable_projects) and k: 
             while projects and projects[0][0] <= cur_capital :
                 cap, profitEarned = heapq.heappop(projects)
