@@ -20,31 +20,4 @@ class Solution:
 
             k -= 1
         return cur_capital
-        # while 
-        # def remove_helper(heap, num): 
-        #     ind = heap.index(num)
-        #     heap[ind] = heap[-1]
-        #     del heap[-1]
-
-        #         if ind < len(heap): 
-        #             heap._siftup(heap, ind)
-        #             heap._siftdown(heap, 0, ind)
-        # # print(projects)
-        # minHeap , maxHeap = [], []
-        # # minHeap for getting minimum capital 
-        # for i in range(len(capital)): 
-        #     heapq.heappush(minHeap, (capital[i], i))
-        # # maxHeap for getting maximum profit for that capital
-        # for i in range(len(profits)): 
-        #     heapq.heappush(maxHeap, (-profits[i], i))
-
-        # cur_capital = w 
-
-        # while True : 
-        #     #For my minimum capital 
-        #     while minHeap : 
-        #         cap, project_id = heapq.heappop(minHeap)
-        #         if cap <= cur_capital: 
-                    
-
         
