@@ -15,8 +15,8 @@ class MedianFinder:
         del heap[-1]
 
         if ind < len(heap):
-            heapq._siftup(heap, ind)
-            heapq._siftdown(heap, 0, ind)
+            heapq._siftup(heap, ind) #Restore Heap Property Upward
+            heapq._siftdown(heap, 0, ind) #Restore Heap Property Downwarss
 
     def insert(self , num):
         if self.large and num > self.large[0]:
