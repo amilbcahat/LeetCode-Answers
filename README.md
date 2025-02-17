@@ -306,6 +306,7 @@
 | [0310-minimum-height-trees](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0310-minimum-height-trees) |
 | [0444-sequence-reconstruction](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0444-sequence-reconstruction) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
+| [1101-parallel-courses](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1101-parallel-courses) |
 | [1696-strange-printer-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1696-strange-printer-ii) |
 | [1706-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1706-min-cost-to-connect-all-points) |
 | [2439-longest-cycle-in-a-graph](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2439-longest-cycle-in-a-graph) |
@@ -473,6 +474,7 @@
 | [0210-course-schedule-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0210-course-schedule-ii) |
 | [0310-minimum-height-trees](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0310-minimum-height-trees) |
 | [0444-sequence-reconstruction](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0444-sequence-reconstruction) |
+| [1101-parallel-courses](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1101-parallel-courses) |
 | [1696-strange-printer-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1696-strange-printer-ii) |
 | [2439-longest-cycle-in-a-graph](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2439-longest-cycle-in-a-graph) |
 <!---LeetCode Topics End-->
