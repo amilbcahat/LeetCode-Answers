@@ -14,6 +14,7 @@ class Solution:
         
         queue = deque()
         for s in supplies: 
+            #Start with 0 indegree
             queue.append(s)
 
         while queue: 
@@ -21,7 +22,9 @@ class Solution:
             for nei in adj[node]:
                 indegree[nei] -= 1
                 if indegree[nei] == 0: 
+                    #all dependencies satisfied for this recipes
                     if nei in lookup: 
+                    #if its a recipe add to result 
                         res.add(nei)
                     queue.append(nei)
 
