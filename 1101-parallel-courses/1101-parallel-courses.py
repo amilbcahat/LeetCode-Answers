@@ -1,5 +1,6 @@
 class Solution:
     def minimumSemesters(self, n: int, relations: List[List[int]]) -> int:
+        #Kahn's Algo for Topo Sort
         indegree = defaultdict(int)
         adj = defaultdict(list)
         nodes = set()
