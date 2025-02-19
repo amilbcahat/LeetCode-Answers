@@ -1,5 +1,7 @@
 class Solution:
     def equationsPossible(self, equations: List[str]) -> bool:
+        # if == , then union them , if found out that != , then check there parents , if equal then means 
+        #that they are equal and != condition is false !!
         par = {}
         rank = {}
         
