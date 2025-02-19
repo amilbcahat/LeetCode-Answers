@@ -47,6 +47,7 @@ class Solution:
         # print(par)
         trackPar = defaultdict(list)
         for child in par: 
+            #Find parent
             parent = find(child)
             trackPar[parent].append(child)
 
