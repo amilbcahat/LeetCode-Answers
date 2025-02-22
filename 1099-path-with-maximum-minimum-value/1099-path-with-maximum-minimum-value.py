@@ -1,5 +1,6 @@
 class Solution:
     def maximumMinimumPath(self, grid: List[List[int]]) -> int:
+        #The intuition is that next one should be highest possible minimum value, so we never take not maximized path, because the lower bound of choices is higher 
         visit = set()
         minHeap = [(-grid[0][0], 0, 0)]
         rows = len(grid)
