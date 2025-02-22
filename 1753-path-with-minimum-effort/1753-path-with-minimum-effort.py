@@ -30,34 +30,56 @@ class UnionFind:
 
 class Solution:
     def minimumEffortPath(self, heights: List[List[int]]) -> int:
+        #Djishktra Algo 
+        minHeap = [(0, 0, 0)]
         rows = len(heights)
         cols = len(heights[0])
-        uf = UnionFind(rows * cols)
-        #Change matrix to 1D for better Union Find (consider index to index as node)
-        #Then do union find, keeping weight
-        #Sort edges with weight 
-        #Then union those weights
-        #If parent of any node is from root to last node, then path is there 
-        #Since Path is from minimum weighted edge, it is clear that this is the minimum effort path 
-        edges = []
-        for i in range(rows): 
-            for j in range(cols): 
-                cur_id = i * cols + j 
-                if i > 0: 
-                    #above id
-                    abv_id = (i - 1) * cols + j 
-                    edges.append((cur_id, abv_id, abs(heights[i][j] - heights[i - 1][j])))
-                if j > 0: 
-                    #left if 
-                    left_id = i * cols + (j - 1)
-                    edges.append((cur_id, left_id, abs(heights[i][j - 1] - heights[i][j])))
-        
-        edges.sort(key = lambda x: x[2])
-        #Sort by weight
-        for src, dst, diff in edges: 
-            uf.union(src, dst)
-            if uf.find(0) == uf.find(rows * cols - 1): 
-                return diff 
+        visited = set()
+        while minHeap: 
+            max_diff, i, j = heapq.heappop(minHeap) #minimized maxDiff
+            if i == rows - 1 and j == cols - 1: 
+                return max_diff
 
-        return 0 
+            if (i, j) in visited:
+                continue
+            
+            visited.add((i , j))
+
+            for r, c in [(i + 1, j), (i - 1, j), (i, j + 1), (i, j - 1)]:
+                if r >= 0 and c >= 0 and c < cols and r < rows: 
+                    diff = abs(heights[i][j] - heights[r][c])
+                    heapq.heappush(minHeap, (max(max_diff, diff), r, c))
+
+
+        # Union Find 
+        # rows = len(heights)
+        # cols = len(heights[0])
+        # uf = UnionFind(rows * cols)
+        # #Change matrix to 1D for better Union Find (consider index to index as node)
+        # #Then do union find, keeping weight
+        # #Sort edges with weight 
+        # #Then union those weights
+        # #If parent of any node is from root to last node, then path is there 
+        # #Since Path is from minimum weighted edge, it is clear that this is the minimum effort path 
+        # edges = []
+        # for i in range(rows): 
+        #     for j in range(cols): 
+        #         cur_id = i * cols + j 
+        #         if i > 0: 
+        #             #above id
+        #             abv_id = (i - 1) * cols + j 
+        #             edges.append((cur_id, abv_id, abs(heights[i][j] - heights[i - 1][j])))
+        #         if j > 0: 
+        #             #left if 
+        #             left_id = i * cols + (j - 1)
+        #             edges.append((cur_id, left_id, abs(heights[i][j - 1] - heights[i][j])))
+        
+        # edges.sort(key = lambda x: x[2])
+        # #Sort by weight
+        # for src, dst, diff in edges: 
+        #     uf.union(src, dst)
+        #     if uf.find(0) == uf.find(rows * cols - 1): 
+        #         return diff 
+
+        # return 0 
         
