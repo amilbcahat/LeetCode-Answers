@@ -33,7 +33,12 @@ class Solution:
         rows = len(heights)
         cols = len(heights[0])
         uf = UnionFind(rows * cols)
-
+        #Change matrix to 1D for better Union Find (consider index to index as node)
+        #Then do union find, keeping weight
+        #Sort edges with weight 
+        #Then union those weights
+        #If parent of any node is from root to last node, then path is there 
+        #Since Path is from minimum weighted edge, it is clear that this is the minimum effort path 
         edges = []
         for i in range(rows): 
             for j in range(cols): 
