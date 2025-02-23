@@ -30,6 +30,7 @@ class UnionFind:
 
 class Solution:
     def distanceLimitedPathsExist(self, n: int, edgeList: List[List[int]], queries: List[List[int]]) -> List[bool]:
+        #Sorting is done so that we dont look again at edges , we already have looked upon 
         edgeList.sort(key= lambda x: x[2]) 
         queries_with_index = []
         for i, (p, q, limit) in enumerate(queries): 
