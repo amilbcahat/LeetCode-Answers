@@ -40,10 +40,14 @@ class Solution:
         res = []
 
         for i in range(len(text)): 
+            p = trie.root
             for j in range(i, len(text)): 
-                ans = trie.search(text[i : j + 1])
-                if ans: 
-                    res.append([i, j])
+                ch = text[j]
+                if ch not in p.children: 
+                    break
+                p = p.children[ch]
+                if p.endOfWord: 
+                    res.append([i , j])
 
         return res
         
