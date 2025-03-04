@@ -34,8 +34,9 @@ class Solution:
             if i in memo: 
                 return memo[i]
 
-            res = dfs(i + 1) + 1 #skip current and add that to results
+            res = dfs(i + 1) + 1 #Option 1:skip current and add that to results
             curr = trie.root
+            # Option 2: Try to match words starting at position i
             for j in range(i, len(s)): 
                 char = s[j]
                 if char not in curr.children: 
