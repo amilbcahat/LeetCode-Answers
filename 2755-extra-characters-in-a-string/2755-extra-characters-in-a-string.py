@@ -34,16 +34,16 @@ class Solution:
             if i in memo: 
                 return memo[i]
 
-            res = dfs(i + 1) + 1
+            res = dfs(i + 1) + 1 #skip current and add that to results
             curr = trie.root
             for j in range(i, len(s)): 
                 char = s[j]
                 if char not in curr.children: 
                     break 
-                    
+
                 curr = curr.children[char]
                 if curr.endOfWord: 
-                    res = min(res, dfs(j + 1))
+                    res = min(res, dfs(j + 1)) #sub problem
 
 
             memo[i] = res
