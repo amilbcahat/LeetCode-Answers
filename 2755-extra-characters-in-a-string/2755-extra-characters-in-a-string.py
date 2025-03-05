@@ -37,6 +37,7 @@ class Solution:
             res = dfs(i + 1) + 1 #Option 1:skip current and add that to results
             curr = trie.root
             # Option 2: Try to match words starting at position i
+            #this could be done with the help of hash set like s[i:j] in hash_set (hash_set is set of words of dictionary) but that would O(n cube time complexity)
             for j in range(i, len(s)): 
                 char = s[j]
                 if char not in curr.children: 
