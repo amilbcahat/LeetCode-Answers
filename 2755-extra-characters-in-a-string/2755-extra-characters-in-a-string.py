@@ -29,7 +29,7 @@ class Solution:
         for w in dictionary: 
             trie.insert(w)
 
-        memo = {len(s): 0}
+        memo = {len(s): 0} #base case
         def dfs(i): 
             if i in memo: 
                 return memo[i]
