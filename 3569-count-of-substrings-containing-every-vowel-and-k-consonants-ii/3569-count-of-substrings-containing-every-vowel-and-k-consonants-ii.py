@@ -17,6 +17,7 @@ class Solution:
 
                 while len(vowelMap) == 5 and con >= k:
                     res += (len(s) - r) 
+                    # res += (len(s) - r) is adding the number of valid substrings that start at position l. Since r points to the last character we've processed so far, (len(s) - r) represents how many different ending positions are possible.
                     if s[l] in vowelMap:
                         vowelMap[s[l]] -= 1
                         if vowelMap[s[l]] == 0:
