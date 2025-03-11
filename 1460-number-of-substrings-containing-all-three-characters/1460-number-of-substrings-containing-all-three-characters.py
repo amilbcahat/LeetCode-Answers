@@ -4,7 +4,7 @@ class Solution:
         l = 0 
         res = 0
         letMap = defaultdict(int)
-        #Atleast algo
+        #Atleast algo with sliding window 
         for r in range(len(s)):
             if s[r] in 'abc': 
                 letMap[s[r]] += 1
