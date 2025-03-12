@@ -11,18 +11,24 @@ class Solution:
 
         q = deque([(root, 0)])
         verticalMap = defaultdict(list)
+        max_col = float("-inf")
+        min_col = float("inf")
         while q: 
             for i in range(len(q)):
                 #We track and map with the x coordinate
                 node, x = q.popleft()
                 verticalMap[x].append(node.val)
+                max_col = max(x, max_col)
+                min_col = min(x, min_col)
                 if node and node.left:
                     q.append([node.left, x - 1])
                 if node and node.right:
                     q.append([node.right, x + 1])
 
-        res = []
-        for key in sorted(verticalMap.keys()):
-            res.append(verticalMap[key])
+        length = max_col - min_col + 1
+
+        res = [[]] * length
+        for key in verticalMap.keys():
+            res[key - min_col] = verticalMap[key]
 
         return res 
