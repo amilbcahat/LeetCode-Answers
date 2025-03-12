@@ -50,5 +50,4 @@ class Solution:
         cntZero = (high - low + 1) if hasZero else 0
         neg = res + 1
         pos = len(nums) - neg - cntZero 
-        print(cntZero, neg, high, low)
         return max(neg, pos)
