@@ -8,14 +8,13 @@ class Solution:
     def verticalOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
         if not root: 
             return []
-            
+
         q = deque([(root, 0)])
         verticalMap = defaultdict(list)
         while q: 
-            level = []
             for i in range(len(q)):
+                #We track and map with the x coordinate
                 node, x = q.popleft()
-                level.append([node.val, x])
                 verticalMap[x].append(node.val)
                 if node and node.left:
                     q.append([node.left, x - 1])
