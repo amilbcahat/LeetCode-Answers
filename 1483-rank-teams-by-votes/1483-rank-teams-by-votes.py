@@ -1,25 +1,33 @@
+class Rank: 
+    def __init__(self, cnt, key): 
+        self.cnt = cnt
+        self.key = key
+
+    def __lt__(self, other): 
+        if self.cnt != other.cnt: 
+            return self.cnt > other.cnt #normally should return if < , but value is going in maxHeap heap, thhats why its opposite 
+        else: 
+            return self.key < other.key
+
 class Solution:
     def rankTeams(self, votes: List[str]) -> str:
-
         if len(votes) == 1: 
             return votes[0]
 
-        freqMap = defaultdict(list) #1st, 2nd, 3rd
+        num_teams = len(votes[0])
+        freqMap = defaultdict(lambda: [0] * num_teams) #1st, 2nd, 3rd
 
         for ranking in votes:
             for i in range(len(ranking)):
-                if not freqMap[ranking[i]]:
-                    freqMap[ranking[i]] = [0] * len(votes[0])
-                freqMap[ranking[i]][i] += 1 
+                letter = ranking[i]       
+                freqMap[letter][i] += 1 
 
         maxHeap = []
-        for key in freqMap: 
-            ranks = [-val for val in freqMap[key]]
-            heapq.heappush(maxHeap, ranks + [key])
+        for key, val in freqMap.items():        
+            heapq.heappush(maxHeap, Rank(val, key))
 
         res = ""
         while maxHeap: 
-            cur = heapq.heappop(maxHeap) 
-            res += cur[-1]
+            res += heapq.heappop(maxHeap).key 
 
         return res
