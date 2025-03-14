@@ -6,7 +6,7 @@ class MovingAverage:
 
     def next(self, val: int) -> float:
         self.window.append(val)                                 
-        if len(self.window) > self.size: 
+        if len(self.window) > self.size:  #could use maxlen parameter that would , ease it to not use popleft everytime
             self.window.popleft()
         return sum(self.window) / len(self.window)
 
