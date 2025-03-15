@@ -1,8 +1,5 @@
 class Solution:
     def maximumCandies(self, candies: List[int], k: int) -> int:
-        if sum(candies) < k: 
-            return 0
-
         l = 1
         r = max(candies) #pile max value 
 
@@ -12,7 +9,7 @@ class Solution:
                 cnt += pile // num_of_candies
             return cnt >= k 
 
-        res = float("-inf")
+        res = 0
         while l <= r: 
             mid = (l + r) // 2
             #check validity
