@@ -17,6 +17,11 @@ class Solution:
         r = max(nums)
         # The confusion might be coming from the example explanation. It's not about taking the maximum value of all robbed houses. Rather, it's about finding the minimum capability such that the thief can rob at least k houses, where capability means "the maximum value the thief can handle in a single house."
         #The binary search approach starts with a capability and asks "can I rob k houses with this?"
+        #The key insight is that when a greedy approach is used with a fixed capability threshold:
+
+        # If we can rob a house, we always should (to maximize houses robbed)
+        # If we can't rob a house, we must skip it
+        # Non-adjacent constraint is handled by skipping the next house after each robbery
 
         res = float("inf")
         while l <= r : 
