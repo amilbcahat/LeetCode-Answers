@@ -29,6 +29,7 @@ class Solution:
             
             if is_valid(mid): 
                 res = min(res, mid)
+            # every valid m that is not part of nums, there exists a smaller m which is part of the nums. The trick here is to understand that for a range [l, r], the smallest value that satisfies is_valid function would be part of nums because in is_valid we are checking nums[i] <= capability. So if a capability satisfies this condition and it is not part of nums, there is also a smaller capability which would satisfy the equality part of this condition i.e. would be part of nums.
                 r = mid - 1
             else: 
                 l = mid + 1
