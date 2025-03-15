@@ -6,29 +6,19 @@ class Solution:
         l = 1
         r = max(candies) #pile max value 
 
-        def valid(amt): 
-            cnt = 0
+        def can_distribute_candies(num_of_candies): 
+            cnt = 0 #Count of students we can distribute candies to , with this amount of candies in each subpile
             for pile in candies: 
-                savePile = pile
-                saveCnt = cnt 
-                # print(pile, amt)
-                while pile > amt:
-                    pileExtracted = (pile // amt)
-                    cnt += pileExtracted
-                    pile -= (pileExtracted * amt)
-                cnt += 1 if pile == amt else 0
-                # print(cnt - saveCnt, savePile)
-            return cnt >= k
+                cnt += pile // num_of_candies
+            return cnt >= k 
 
-        res = 0
+        res = float("-inf")
         while l <= r: 
             mid = (l + r) // 2
-
             #check validity
-            if valid(mid): 
-                res = max(res, mid)
+            if can_distribute_candies(mid): 
+                res = max(res, mid) #If valid , check for next bigger valid option 
                 l = mid + 1
             else: 
                 r = mid - 1
-
         return res
