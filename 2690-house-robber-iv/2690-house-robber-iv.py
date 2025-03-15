@@ -16,6 +16,8 @@ class Solution:
         l = 1 
         r = max(nums)
         # The confusion might be coming from the example explanation. It's not about taking the maximum value of all robbed houses. Rather, it's about finding the minimum capability such that the thief can rob at least k houses, where capability means "the maximum value the thief can handle in a single house."
+        #The binary search approach starts with a capability and asks "can I rob k houses with this?"
+
         res = float("inf")
         while l <= r : 
             mid = (l + r) // 2 
