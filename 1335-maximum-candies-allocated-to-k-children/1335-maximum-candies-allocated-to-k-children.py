@@ -10,7 +10,7 @@ class Solution:
                 cnt += pile // num_of_candies
             return cnt >= k 
 
-        res = float("-inf")
+        res = 0
         while l <= r: 
             mid = (l + r) // 2
             #check validity
