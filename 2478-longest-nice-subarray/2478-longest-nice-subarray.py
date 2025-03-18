@@ -1,6 +1,6 @@
 class Solution:
     def longestNiceSubarray(self, nums: List[int]) -> int:
-        #Logic is simple , if a number has some set bit , then at that place you cant have a set bit 
+        #Logic is simple , if a number has some set bit , then at that place you cant have a set bit O(n)
         used_bits = 0 
         res = 0
         l = 0
