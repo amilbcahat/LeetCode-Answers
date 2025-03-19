@@ -3,11 +3,10 @@ class Solution:
         l = 0
         flips = 0 
         for r in range(2, len(nums)): 
-            if (r - l + 1) == 3: 
-                if nums[l] == 0: 
-                    for i in range(l, l + 3): 
-                        nums[i] = nums[i] ^ 1 
-                    flips += 1
-                l += 1
+            if nums[l] == 0: 
+                for i in range(l, l + 3): 
+                    nums[i] = nums[i] ^ 1 
+                flips += 1
+            l += 1
         
         return flips if nums == [1] * len(nums) else -1
