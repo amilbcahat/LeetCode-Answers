@@ -17,7 +17,7 @@ class UnionFind:
     def union(self, n1, n2): 
         p1, p2 = self.find(n1), self.find(n2)
         if p1 == p2: 
-            return [False, p1, p2] 
+            return False
 
         if self.rank[p1] < self.rank[p2]: 
             self.par[p1] = p2
@@ -26,7 +26,7 @@ class UnionFind:
         else: 
             self.par[p1] = p2
             self.rank[p2] += 1 
-        return [True, -1, -1]
+        return True
 
 class Solution:
     def countCompleteComponents(self, n: int, edges: List[List[int]]) -> int:
@@ -42,13 +42,10 @@ class Solution:
 
         for edge in edges: 
             src, dst = edge
-            ans = uf.union(src, dst)
-            if not ans[0]: 
-                #To note is that, this will always return False, since, we have already run UnionFind and all edges have been connect respectively
-                #Belong to same Par
-                trackEdges[ans[1]] += 1
-                parToNodes[ans[1]].add(src)
-                parToNodes[ans[1]].add(dst)
+            root = uf.find(src)
+            trackEdges[root] += 1
+            parToNodes[root].add(src)
+            parToNodes[root].add(dst)
 
         res = 0
         node_with_edges = 0
