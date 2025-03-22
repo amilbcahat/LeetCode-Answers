@@ -47,7 +47,7 @@ class Solution:
             src, dst = edge
             ans = uf.union(src, dst)
             if not ans[0]: 
-                #To note is that, this will always return False, since, we have already run UnionFind
+                #To note is that, this will always return False, since, we have already run UnionFind and all edges have been connect respectively
                 #Belong to same Par
                 trackEdges[ans[1]] += 1
                 parToNodes[ans[1]].add(src)
@@ -56,9 +56,8 @@ class Solution:
         res = 0
         node_with_edges = 0
         for par, edge_count in trackEdges.items(): 
-            k = len(parToNodes[par])
+            k = len(parToNodes[par]) #nodes per parent
             node_with_edges += k
-            print(par, edge_count, k, k * (k - 1) / 2)
             if edge_count == k * (k - 1) / 2:
                 res += 1
 
