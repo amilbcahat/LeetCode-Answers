@@ -35,10 +35,7 @@ class Solution:
         for edge in edges: 
             src, dst = edge
             ans = uf.union(src, dst)
-            # print(ans , edge)
-            # if ans[0]: 
-            #     n -= 1
-
+            
         trackEdges = defaultdict(int)
         parToNodes = defaultdict(set)
         edgeCount = 0
