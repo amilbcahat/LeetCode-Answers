@@ -1,5 +1,6 @@
 class Solution:
     def minZeroArray(self, nums: List[int], queries: List[List[int]]) -> int:
+        #KOKO + Difference Array Validity Check
         def isValid(k):
             temp_nums = nums.copy()
             diff = [0] * (len(nums) + 1)
