@@ -10,7 +10,7 @@ class Solution:
         for i in range(1, len(diff)): 
             diff[i] += curr
             curr = diff[i]
-
+        #Resulting array shows , that each index that much operations needs to be done 
         for i in range(len(diff) - 1):
             nums[i] -= diff[i]
             if nums[i] > 0: 
