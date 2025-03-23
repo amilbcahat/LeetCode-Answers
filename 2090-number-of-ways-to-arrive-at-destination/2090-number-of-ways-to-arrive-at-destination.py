@@ -46,6 +46,7 @@ class Solution:
 
         return num_ways(0, 0)
         
+        # By tracking the Ways to Reach , along side Dijsktra
         # min_cost = [float("inf")] * n 
         # path_count = [0] * n 
         # path_count[0] = 1
