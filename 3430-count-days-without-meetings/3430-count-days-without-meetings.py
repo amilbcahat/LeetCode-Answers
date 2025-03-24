@@ -21,23 +21,3 @@ class Solution:
         res += (days - merged[-1][1])
 
         return res
-
-
-        # for start, end in meetings: 
-
-        # arr = [0] * (days + 2) 
-
-        # for start, end in meetings: 
-        #     arr[start] += 1
-        #     arr[end + 1] -= 1 
-
-        # curr = arr[0]
-        # for i in range(len(arr)): 
-        #     arr[i] += curr
-        #     curr = arr[i]
-
-        # res = 0 
-        # for i in range(1, days + 1): 
-        #     if arr[i] == 0: 
-        #         res += 1
-        # return res
