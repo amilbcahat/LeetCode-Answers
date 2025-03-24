@@ -12,6 +12,8 @@ class Solution:
             else: 
                 merged.append(meetings[i])
 
+
+        #Counted gaps at start, between and at end 
         res = merged[0][0] - 1 
         for i in range(1, len(merged)):
             if merged[i][0] > merged[i - 1][1]: 
