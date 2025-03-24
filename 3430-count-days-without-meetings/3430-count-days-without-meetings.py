@@ -2,19 +2,21 @@ class Solution:
     def countDays(self, days: int, meetings: List[List[int]]) -> int:
         meetings.sort()
         start, end = meetings[0]
-        here = []
-        here.append(meetings[0])
-        for i in range(1, len(meetings)):
-            if here[-1][1] >= meetings[i][0]: 
-                here[-1][1] = max(here[-1][1], meetings[i][1])
-            else: 
-                here.append(meetings[i])
 
-        res = here[0][0] - 1 
-        for i in range(1, len(here)):
-            if here[i][0] > here[i - 1][1]: 
-                res += (here[i][0] - here[i - 1][1]) - 1
-        res += (days - here[-1][1])
+        #Merged Intervals
+        merged = []
+        merged.append(meetings[0])
+        for i in range(1, len(meetings)):
+            if merged[-1][1] >= meetings[i][0]: 
+                merged[-1][1] = max(merged[-1][1], meetings[i][1])
+            else: 
+                merged.append(meetings[i])
+
+        res = merged[0][0] - 1 
+        for i in range(1, len(merged)):
+            if merged[i][0] > merged[i - 1][1]: 
+                res += (merged[i][0] - merged[i - 1][1]) - 1
+        res += (days - merged[-1][1])
 
         return res
 
