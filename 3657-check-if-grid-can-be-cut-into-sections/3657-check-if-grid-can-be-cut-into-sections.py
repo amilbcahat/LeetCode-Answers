@@ -5,25 +5,26 @@ class Solution:
 
         y.sort()
         x.sort()
+
+        #After merging, check 
         latest_end = -1
-        newStart = 0
+        sections = 0
         for start, end in y: 
             if start >= latest_end: 
-                newStart += 1
+                sections += 1
             latest_end = max(end, latest_end)
 
-
-        if newStart >= 3:
+        if sections >= 3:
             return True 
 
         latest_end = -1
-        newStart = 0
+        sections = 0
         for start, end in x: 
             if start >= latest_end: 
-                newStart += 1
+                sections += 1
             latest_end = max(end, latest_end)
 
-        if newStart >= 3:
+        if sections >= 3:
             return True 
 
         return False
