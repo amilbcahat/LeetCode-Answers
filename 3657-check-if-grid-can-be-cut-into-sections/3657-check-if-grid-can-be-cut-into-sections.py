@@ -6,7 +6,7 @@ class Solution:
         y.sort()
         x.sort()
 
-        #After merging, check 
+        #After merging intervals, check if we can have more or equal to 3 sections, which dont overlap, on either or x or y, in that case we can divide
         latest_end = -1
         sections = 0
         for start, end in y: 
