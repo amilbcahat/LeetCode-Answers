@@ -36,6 +36,6 @@ class Solution:
             left_sub = i - left_bound[i] 
             cnt = right_sub * left_sub 
             operations = min(k, cnt)
-            res = res * (pow(n, operations, MOD)) % MOD
+            res = (res * pow(n, operations, MOD)) % MOD
             k -= operations
         return res
