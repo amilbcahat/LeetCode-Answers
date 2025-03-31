@@ -16,6 +16,16 @@ class Solution:
                     is_prime[multiple] = False
 
             return primes
+
+        def _pow(x, n): 
+            if x == 0: 
+                return 0
+            if n == 0: 
+                return 1 
+            res = _pow(x, n // 2)
+            res = (res * res) % MOD
+            return (x * res) % MOD if n % 2 else res
+
         # Intuition: 
         # Phase 1: Calculate the prime scores for each number
         N = len(nums)
@@ -71,7 +81,7 @@ class Solution:
             operations = min(k, cnt)
             
             # Update result by multiplying by this element 'operations' times
-            res = (res * pow(n, operations, MOD)) % MOD
+            res = (res * _pow(n, operations)) % MOD
             # Reduce remaining operations
             k -= operations
             indx += 1
