@@ -8,10 +8,9 @@ class Solution:
             if i in dp: 
                 return dp[i]
 
-            points = 0
             skip = dfs(i + 1)
             include = questions[i][0] + dfs(i + (questions[i][1] + 1))
-            points += max(skip, include)
+            points = max(skip, include)
 
             dp[i] = points
             return points
