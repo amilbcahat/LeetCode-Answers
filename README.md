@@ -197,6 +197,7 @@
 | [0747-min-cost-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0747-min-cost-climbing-stairs) |
 | [0761-employee-free-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0761-employee-free-time) |
 | [0907-koko-eating-bananas](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0907-koko-eating-bananas) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1028-interval-list-intersections](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1036-rotting-oranges) |
 | [1099-path-with-maximum-minimum-value](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1099-path-with-maximum-minimum-value) |
@@ -357,6 +358,7 @@
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2888-minimum-index-of-a-valid-split) |
 ## Graph
@@ -522,6 +524,7 @@
 | [0410-split-array-largest-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0410-split-array-largest-sum) |
 | [0724-find-pivot-index](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
+| [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [2102-find-the-middle-index-in-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2102-find-the-middle-index-in-array) |
 | [2714-left-and-right-sum-differences](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2714-left-and-right-sum-differences) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
