@@ -1,6 +1,7 @@
 class Solution:
     def mostPoints(self, questions: List[List[int]]) -> int:
-        #Iterative 
+        # Iterative 
+        # Learn the pattern , how much similarity it is from memoization solution 
         n = len(questions)
         cache = [0] * n 
 
