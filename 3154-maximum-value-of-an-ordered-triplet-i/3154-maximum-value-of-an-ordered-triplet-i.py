@@ -6,6 +6,12 @@ class Solution:
         loss = 0
         nextBig = 1
         res = float("-inf")
+        greatElem = [0] * len(nums)
+        curMax = nums[-1]
+        for j in range(len(nums) - 1, -1 ,-1):
+            curMax = max(curMax, nums[j])
+            greatElem[j] = curMax 
+
         for i, n in enumerate(nums): 
             if buyPrice < n: 
                 buyPrice = n 
@@ -16,14 +22,7 @@ class Solution:
                 r = i
                 if loss != 0 and r + 1 < len(nums):
                     print(l , r)
-                    nextBig = max(nums[r + 1:])
+                    nextBig = greatElem[r + 1]
                     res = max(loss * nextBig, res)
+
         return res if res != float("-inf") else 0
-        # print(l , r)
-        # if loss == 0 or r + 1 >= len(nums): 
-        #     # print(r, loss)
-        #     return 0
-
-        
-
-        return 0
