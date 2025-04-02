@@ -227,6 +227,7 @@
 | [2690-house-robber-iv](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2690-house-robber-iv) |
 | [2714-left-and-right-sum-differences](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2714-left-and-right-sum-differences) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2888-minimum-index-of-a-valid-split) |
+| [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3430-count-days-without-meetings](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3430-count-days-without-meetings) |
