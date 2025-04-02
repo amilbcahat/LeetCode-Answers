@@ -2,6 +2,7 @@ class Solution:
     def minimumSum(self, nums: List[int]) -> int:
         #leftMin Prefixes 
         #rightMin Suffixes 
+        #Then pivot around k 
         #Look over triplet i and ii , good intuition to build 
         n = len(nums)
         leftMin = [float("inf")]  * n 
