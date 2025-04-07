@@ -1,5 +1,6 @@
 class Solution:
     def sumSubarrayMins(self, arr: List[int]) -> int:
+        #Reference - https://leetcode.com/problems/apply-operations-to-maximize-score/
         MOD = 10 ** 9 + 7
         leftBound = [-1] * len(arr)
         rightBound = [len(arr)] * len(arr)
