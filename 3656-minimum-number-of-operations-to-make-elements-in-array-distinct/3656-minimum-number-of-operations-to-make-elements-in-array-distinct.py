@@ -11,4 +11,5 @@ class Solution:
                     print(nums[i + 1:], len(nums) - i - 1)
                     return k 
 
-        return k + 1
+        return k + 1 # +1 , atones to the fact, that the code comes here , if no removals could reach the condition of distinct, in that case, + 1 removal would be required for removal
+        #of leftovers, which is < 3, left after removing other elements 
