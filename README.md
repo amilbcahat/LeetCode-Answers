@@ -223,6 +223,7 @@
 | [2262-solving-questions-with-brainpower](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2262-solving-questions-with-brainpower) |
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2588-maximum-number-of-points-from-grid-queries](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2588-maximum-number-of-points-from-grid-queries) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [2665-minimum-time-to-repair-cars](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2665-minimum-time-to-repair-cars) |
@@ -606,6 +607,7 @@
 | [0480-sliding-window-median](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0480-sliding-window-median) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [2478-longest-nice-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Merge Sort
@@ -631,6 +633,7 @@
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0346-moving-average-from-data-stream) |
 | [2195-time-needed-to-buy-tickets](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2195-time-needed-to-buy-tickets) |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Data Stream
 |  |
@@ -640,4 +643,8 @@
 |  |
 | ------- |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1993-sum-of-all-subset-xor-totals) |
+## Monotonic Queue
+|  |
+| ------- |
+| [2527-count-subarrays-with-fixed-bounds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2527-count-subarrays-with-fixed-bounds) |
 <!---LeetCode Topics End-->
