@@ -21,7 +21,7 @@ class Solution:
 
         odd.sort()
         even.sort()
-        print(odd)
+
         if odd: 
             length += 1
         res = [""] * length
@@ -36,7 +36,6 @@ class Solution:
             mid = length // 2
             res[mid] = odd[-1]
 
-        # print(even, countMap)
         i = 0
         for n in even[::-1]:
             num, count = n
