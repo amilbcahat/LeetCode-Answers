@@ -27,7 +27,7 @@ class Solution:
             levels += 1
 
 
-        return levels
+        return -1
 
 
             
