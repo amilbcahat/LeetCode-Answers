@@ -13,16 +13,16 @@ class Solution:
         
         def dfs(node, level): 
             if len(levels) == level: 
-                levels.append([])
+                levels.append([0, 0])
 
-            levels[level].append(node.val)
+            levels[level] = [node.val + levels[level][0], 1 + levels[level][1]]
 
             if node.right: 
                 dfs(node.right, level + 1)
             
             if node.left: 
                 dfs(node.left, level + 1)
-
+                                
         dfs(root, 0)
 
-        return [sum(level) / len(level) for level in levels]
+        return [(total / levelNodeCount) for total, levelNodeCount in levels]
