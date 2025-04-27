@@ -1,10 +1,12 @@
 class Solution:
     def minimumDeletions(self, nums: List[int]) -> int:
-        nums = [(nums[i], i) for i in range(len(nums))]
-        nums.sort()
-        minElem = nums[0]
-        maxElem = nums[-1]
-        half = len(nums) // 2
+        maxElem = [float("-inf"), -1]
+        minElem = [float("inf"), 1]
+        for i in range(len(nums)): 
+            if maxElem[0] < nums[i]:
+                maxElem = [nums[i], i]
+            if minElem[0] > nums[i]: 
+                minElem = [nums[i], i]
 
         deletions = 0 
         removeFromleft = max(maxElem[1] + 1, minElem[1] + 1)
