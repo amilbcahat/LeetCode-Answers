@@ -21,6 +21,7 @@ class Solution:
                     q.append(node.right)
 
                 if not node.left and not node.right: 
+                    #first leaf node where, it does not have children , would have the answer
                     return levels 
 
             levels += 1
