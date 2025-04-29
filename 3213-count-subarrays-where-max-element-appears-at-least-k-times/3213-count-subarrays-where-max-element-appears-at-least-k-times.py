@@ -11,7 +11,7 @@ class Solution:
             count += 1 if nums[r] == maxElem else 0 
             while l <= r and count >= k:
                 res += len(nums) - r
-
+                # print(nums[l: r + 1])
                 count -= 1 if nums[l] == maxElem else 0
                 l += 1 
 
