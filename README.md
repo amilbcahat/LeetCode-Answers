@@ -202,6 +202,7 @@
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1028-interval-list-intersections](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1028-interval-list-intersections) |
 | [1036-rotting-oranges](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1036-rotting-oranges) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [1099-path-with-maximum-minimum-value](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1099-path-with-maximum-minimum-value) |
 | [1293-three-consecutive-odds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1293-three-consecutive-odds) |
 | [1306-minimum-absolute-difference](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1306-minimum-absolute-difference) |
@@ -598,6 +599,7 @@
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
+| [1049-minimum-domino-rotations-for-equal-row](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1049-minimum-domino-rotations-for-equal-row) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2212-removing-minimum-and-maximum-from-array) |
 | [2681-put-marbles-in-bags](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2681-put-marbles-in-bags) |
 ## Design
