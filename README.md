@@ -468,6 +468,7 @@
 | [0518-coin-change-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0518-coin-change-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
 | [0747-min-cost-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0747-min-cost-climbing-stairs) |
+| [0806-domino-and-tromino-tiling](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0806-domino-and-tromino-tiling) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2262-solving-questions-with-brainpower) |
 ## Memoization
