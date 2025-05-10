@@ -16,7 +16,7 @@ class Solution:
             totalNums1 += n 
 
         
-        print(totalNums1, totalNums2, cntZero1, cntZero2)
+        # print(totalNums1, totalNums2, cntZero1, cntZero2)
 
         ans = -1
         if totalNums1  == totalNums2  : 
@@ -28,9 +28,11 @@ class Solution:
                 ans = totalNums1 + moreZero
         elif totalNums1 + cntZero1 > totalNums2 + cntZero2: 
             if cntZero2 > 0: 
+                #Now we replace 0 to match 
                 ans = totalNums1 + cntZero1 
         else: 
             if cntZero1 > 0: 
+                #Now we replace 0 to match 
                 ans = totalNums2 + cntZero2 
 
         return ans
