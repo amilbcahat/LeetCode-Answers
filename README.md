@@ -385,6 +385,7 @@
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0325-maximum-size-subarray-sum-equals-k) |
 | [0347-top-k-frequent-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0347-top-k-frequent-elements) |
+| [0359-logger-rate-limiter](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0359-logger-rate-limiter) |
 | [0448-find-all-numbers-disappeared-in-an-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0448-find-all-numbers-disappeared-in-an-array) |
 | [0480-sliding-window-median](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0480-sliding-window-median) |
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
@@ -624,6 +625,7 @@
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0359-logger-rate-limiter) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 ## Segment Tree
 |  |
@@ -673,6 +675,7 @@
 |  |
 | ------- |
 | [0346-moving-average-from-data-stream](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0346-moving-average-from-data-stream) |
+| [0359-logger-rate-limiter](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0359-logger-rate-limiter) |
 ## Enumeration
 |  |
 | ------- |
