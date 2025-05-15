@@ -216,6 +216,7 @@
 | [1753-path-with-minimum-effort](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1753-path-with-minimum-effort) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [1983-maximum-population-year](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2048-build-array-from-permutation) |
 | [2102-find-the-middle-index-in-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2102-find-the-middle-index-in-array) |
@@ -567,6 +568,7 @@
 | [0347-top-k-frequent-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0347-top-k-frequent-elements) |
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
 | [1227-number-of-equivalent-domino-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1227-number-of-equivalent-domino-pairs) |
+| [1983-maximum-population-year](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1983-maximum-population-year) |
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 ## Quickselect
@@ -583,6 +585,7 @@
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
+| [1983-maximum-population-year](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1983-maximum-population-year) |
 | [2102-find-the-middle-index-in-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2102-find-the-middle-index-in-array) |
 | [2249-count-the-hidden-sequences](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2249-count-the-hidden-sequences) |
 | [2394-count-subarrays-with-score-less-than-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2394-count-subarrays-with-score-less-than-k) |
