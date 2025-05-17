@@ -15,7 +15,7 @@ class Solution:
 
             duplicates = freq[i] - 1
             freq[i + 1] += duplicates
-            # freq[i] = 1
+            freq[i] = 1 #Not necessary 
             ans += duplicates
 
         return ans
