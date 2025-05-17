@@ -9,6 +9,8 @@ class Solution:
         for val in nums: 
             freq[val] += 1
 
+        #1. Just like Solution 2 , we move like a sorted manner
+        #2. Better Space
         for i in range(len(freq)): 
             if freq[i] <= 1: 
                 continue 
