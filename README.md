@@ -217,6 +217,7 @@
 | [1753-path-with-minimum-effort](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1753-path-with-minimum-effort) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
+| [1938-minimum-operations-to-make-the-array-increasing](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [1983-maximum-population-year](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1983-maximum-population-year) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2048-build-array-from-permutation](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2048-build-array-from-permutation) |
@@ -624,6 +625,7 @@
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
 | [1049-minimum-domino-rotations-for-equal-row](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1049-minimum-domino-rotations-for-equal-row) |
+| [1938-minimum-operations-to-make-the-array-increasing](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1938-minimum-operations-to-make-the-array-increasing) |
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2212-removing-minimum-and-maximum-from-array) |
 | [2681-put-marbles-in-bags](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2681-put-marbles-in-bags) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
