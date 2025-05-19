@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals">Least Number of Unique Integers after K Removals</a></h2> <img src='https://img.shields.io/badge/Difficulty-Medium-orange' alt='Difficulty: Medium' /><hr><p>Given an array of integers&nbsp;<code>arr</code>&nbsp;and an integer <code>k</code>.&nbsp;Find the <em>least number of unique integers</em>&nbsp;after removing <strong>exactly</strong> <code>k</code> elements<b>.</b></p>
+<h2><a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals">1604. Least Number of Unique Integers after K Removals</a></h2><h3>Medium</h3><hr><p>Given an array of integers&nbsp;<code>arr</code>&nbsp;and an integer <code>k</code>.&nbsp;Find the <em>least number of unique integers</em>&nbsp;after removing <strong>exactly</strong> <code>k</code> elements<b>.</b></p>
 
 <ol>
 </ol>
