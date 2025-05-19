@@ -1,5 +1,6 @@
 class Solution:
     def findLeastNumOfUniqueInts(self, arr: List[int], k: int) -> int:
+        #With Counting Sort Pattern
         freq_map = defaultdict(int)
         for n in arr: 
             freq_map[n] += 1
