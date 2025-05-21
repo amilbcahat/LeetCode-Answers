@@ -1,5 +1,6 @@
 class Solution:
     def continuousSubarrays(self, nums: List[int]) -> int:
+        #Monotonic Queue Behaves as Sliding Window Efficient version
         maxDeque = deque()
         minDeque = deque()
         l = 0
