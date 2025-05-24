@@ -10,35 +10,36 @@ class Solution:
 
         n = len(arr)
         q = len(queries)
-        blockSize = int(math.sqrt(n))
+        blockSize = int(math.sqrt(n))  # Size of each block for Mo's algorithm
+        answer = [0] * q
 
+        # Create an array of Query objects to hold the queries with their indices
         qs = [Query(queries[i][0], queries[i][1], i) for i in range(q)]
-        qs.sort(key=lambda q: (q.left // blockSize, q.right))
-        res = [0] * len(queries)
-        currentRight = -1
-        currentLeft = 0
-        currentXor = 0
-        for q in qs: 
-            left = q.left
-            right = q.right
-            while currentRight < right: 
+
+        # Sort the queries according to the block and then by the right index
+        qs.sort(key=lambda x: (x.left // blockSize, x.right))
+
+        currentLeft, currentRight, currentXor = 0, -1, 0  # Initialize pointers and current XOR
+
+        # Process each query in the sorted order
+        for query in qs:
+            # Expand the right boundary to include new elements in the XOR calculation
+            while currentRight < query.right:
                 currentRight += 1
                 currentXor ^= arr[currentRight]
-
-            while currentRight > right: 
+            # Shrink the right boundary to exclude elements from the XOR calculation
+            while currentRight > query.right:
                 currentXor ^= arr[currentRight]
                 currentRight -= 1
-            
-
-            while currentLeft < left: 
+            # Expand the left boundary to exclude elements from the XOR calculation
+            while currentLeft < query.left:
                 currentXor ^= arr[currentLeft]
                 currentLeft += 1
-                
-
-            while currentLeft > left: 
+            # Shrink the left boundary to include new elements in the XOR calculation
+            while currentLeft > query.left:
                 currentLeft -= 1
                 currentXor ^= arr[currentLeft]
 
-            res[q.index] = currentXor
+            answer[query.index] = currentXor
 
-        return res
+        return answer
