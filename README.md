@@ -212,6 +212,7 @@
 | [1306-minimum-absolute-difference](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1306-minimum-absolute-difference) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
+| [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -300,6 +301,7 @@
 | [0090-subsets-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0090-subsets-ii) |
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
+| [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
@@ -609,6 +611,7 @@
 | [0724-find-pivot-index](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
+| [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1983-maximum-population-year](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1983-maximum-population-year) |
 | [2102-find-the-middle-index-in-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2102-find-the-middle-index-in-array) |
