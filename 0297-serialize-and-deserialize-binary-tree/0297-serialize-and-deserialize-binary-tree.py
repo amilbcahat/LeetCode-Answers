@@ -10,25 +10,25 @@ class Codec:
     def serialize(self, root: Optional[TreeNode]) -> str:
         """Encodes a tree to a single string.
         """
-        sb = []
-        self.serHelper(root, sb)
+        
+        sb = self.serHelper(root, "")
         return ''.join(sb)
 
     def serHelper(self, root, sb): 
         if root is None:
-            sb.append("#,")
-            return 
+            return "#," 
 
-        sb.append(str(root.val) + ',')
-        self.serHelper(root.left, sb)
-        self.serHelper(root.right, sb)
+        left = self.serHelper(root.left, sb)
+        right = self.serHelper(root.right, sb)
+
+        return str(root.val) + "," + left + right
+
         
 
     def deserialize(self, data: str) -> Optional[TreeNode]:
         """Decodes your encoded data to tree.
         """
         nodes = data.split(',')
-        nodes.pop()
         self.index = 0
         return self.deHelper(nodes)
 
