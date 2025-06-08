@@ -1,17 +1,29 @@
 class Solution:
     def isValidSerialization(self, preorder: str) -> bool:
-        available_slots = 1 
+        # Initialize the number of available slots for nodes in the binary tree.
+        availableSlots = 1
 
-        for i in range(len(preorder)): 
-            if preorder[i] == ',': 
-                available_slots -= 1
+        # Get the length of the input string.
+        length = len(preorder)
 
-                if available_slots < 0: 
+        # Traverse through each character in the input string.
+        for i in range(length):
+            # If a comma is encountered, a new node has been processed.
+            if preorder[i] == ',':
+                # Decrease the available slots by 1 as the node consumes one slot.
+                availableSlots -= 1
+
+                # If no slots are available, the serialization is invalid.
+                if availableSlots < 0:
                     return False
 
-                if preorder[i - 1] != "#": 
-                    available_slots += 2 
+                # If the previous character is not '#', it represents a non-null node,
+                # which creates two additional slots for its children.
+                if preorder[i - 1] != '#':
+                    availableSlots += 2
 
-        available_slots = available_slots - 1 if preorder[-1] == "#" else available_slots + 2
+        # Process the last node in the input string.
+        availableSlots = availableSlots - 1 if preorder[length - 1] == '#' else availableSlots + 1
 
-        return available_slots == 0
+        # The serialization is valid if all slots are exactly filled.
+        return availableSlots == 0
