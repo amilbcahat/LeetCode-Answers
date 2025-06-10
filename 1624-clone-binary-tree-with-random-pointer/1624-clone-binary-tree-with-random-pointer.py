@@ -13,31 +13,20 @@ class Solution:
             
         oldToCopy = {None: None}
         
-        # First pass: Create all nodes and store mapping
-        def createNodes(node):
-            if not node:
-                return None
-            
-            copy = NodeCopy(node.val)
-            oldToCopy[node] = copy
-            
-            createNodes(node.left)
-            createNodes(node.right)
-            
-        createNodes(root)
-        
-        # Second pass: Set up all pointers (left, right, random)
         def linkNodes(node):
             if not node:
                 return None
-                
-            copy = oldToCopy[node]
-            copy.left = oldToCopy[node.left]
-            copy.right = oldToCopy[node.right] 
-            copy.random = oldToCopy[node.random]
+
+            #Copy already is there
+            if node in oldToCopy: 
+                return oldToCopy[node]
             
-            linkNodes(node.left)
-            linkNodes(node.right)
+            copy = NodeCopy(node.val)
+            oldToCopy[node] = copy
+            copy.left = linkNodes(node.left) #All are kind of same logic , we are just traversing throughout
+            copy.right = linkNodes(node.right)
+            copy.random = linkNodes(node.random)
+            return copy
             
         linkNodes(root)
         
