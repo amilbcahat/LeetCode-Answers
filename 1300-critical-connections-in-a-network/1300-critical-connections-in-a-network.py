@@ -1,5 +1,6 @@
 class Solution:
     def criticalConnections(self, n: int, connections: List[List[int]]) -> List[List[int]]:
+        #Tarjan's Algo
         self.adj = defaultdict(list)
         nodes = set()
         art_con = []
@@ -24,7 +25,7 @@ class Solution:
         for neighbor in self.adj[curNode]: 
             if parent == neighbor: 
                     continue 
-                    
+
             if discovery[neighbor] == -1: 
                 self.dfs(neighbor, time + 1, curNode, art_con, low, discovery)
 
