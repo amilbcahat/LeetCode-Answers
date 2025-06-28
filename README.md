@@ -196,6 +196,7 @@
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0695-max-area-of-island) |
 | [0724-find-pivot-index](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
@@ -527,6 +528,7 @@
 | [0494-target-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0518-coin-change-ii) |
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0747-min-cost-climbing-stairs) |
 | [0806-domino-and-tromino-tiling](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0806-domino-and-tromino-tiling) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
@@ -696,6 +698,7 @@
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0307-range-sum-query-mutable) |
 | [0406-queue-reconstruction-by-height](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0406-queue-reconstruction-by-height) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [0880-rectangle-area-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0880-rectangle-area-ii) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
@@ -781,5 +784,6 @@
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0307-range-sum-query-mutable) |
 | [0406-queue-reconstruction-by-height](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0406-queue-reconstruction-by-height) |
+| [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
 <!---LeetCode Topics End-->
