@@ -175,6 +175,7 @@
 | [0309-best-time-to-buy-and-sell-stock-with-cooldown](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0309-best-time-to-buy-and-sell-stock-with-cooldown) |
 | [0322-coin-change](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0322-coin-change) |
 | [0325-maximum-size-subarray-sum-equals-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0325-maximum-size-subarray-sum-equals-k) |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 | [0346-moving-average-from-data-stream](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0346-moving-average-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0347-top-k-frequent-elements) |
 | [0373-find-k-pairs-with-smallest-sums](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0373-find-k-pairs-with-smallest-sums) |
@@ -559,6 +560,7 @@
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
 | [0300-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0300-longest-increasing-subsequence) |
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0410-split-array-largest-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0410-split-array-largest-sum) |
 | [0436-find-right-interval](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0436-find-right-interval) |
@@ -582,6 +584,7 @@
 | [0004-median-of-two-sorted-arrays](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0004-median-of-two-sorted-arrays) |
 | [0023-merge-k-sorted-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0023-merge-k-sorted-lists) |
 | [0240-search-a-2d-matrix-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0240-search-a-2d-matrix-ii) |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 | [0347-top-k-frequent-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0347-top-k-frequent-elements) |
 ## Sorting
 |  |
@@ -700,6 +703,7 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0307-range-sum-query-mutable) |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 | [0406-queue-reconstruction-by-height](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0406-queue-reconstruction-by-height) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
@@ -709,6 +713,7 @@
 ## Ordered Set
 |  |
 | ------- |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [0880-rectangle-area-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0880-rectangle-area-ii) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -732,6 +737,7 @@
 |  |
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0023-merge-k-sorted-lists) |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 ## Line Sweep
 |  |
 | ------- |
@@ -787,6 +793,7 @@
 |  |
 | ------- |
 | [0307-range-sum-query-mutable](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0307-range-sum-query-mutable) |
+| [0327-count-of-range-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0327-count-of-range-sum) |
 | [0406-queue-reconstruction-by-height](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0406-queue-reconstruction-by-height) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
