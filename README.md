@@ -220,6 +220,7 @@
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
 | [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
+| [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
@@ -290,6 +291,7 @@
 ## Simulation
 |  |
 | ------- |
+| [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [2048-build-array-from-permutation](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2048-build-array-from-permutation) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2132-convert-1d-array-into-2d-array) |
 | [2195-time-needed-to-buy-tickets](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2195-time-needed-to-buy-tickets) |
@@ -788,5 +790,6 @@
 | [0406-queue-reconstruction-by-height](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0406-queue-reconstruction-by-height) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
+| [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [3187-maximum-profitable-triplets-with-increasing-prices-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3187-maximum-profitable-triplets-with-increasing-prices-i) |
 <!---LeetCode Topics End-->
