@@ -6,14 +6,11 @@ class Solution:
         ans = float('-inf')
         n = len(cardPoints)
         lenOfWin = n - k
-        cur = deque([cardPoints[0]])
         for r in range(1, n):
             if r - l + 1 == lenOfWin + 1: 
                 windowSum -= cardPoints[l]
                 l += 1
-                cur.popleft()
             windowSum += cardPoints[r]
-            cur.append(cardPoints[r])
             if r - l + 1 == lenOfWin: 
                 ans = max(ans, sumOfPoints - windowSum)
 
