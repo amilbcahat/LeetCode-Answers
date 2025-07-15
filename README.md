@@ -295,6 +295,7 @@
 ## Simulation
 |  |
 | ------- |
+| [0258-add-digits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0258-add-digits) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [2048-build-array-from-permutation](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2048-build-array-from-permutation) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -510,6 +511,7 @@
 | [0009-palindrome-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0009-palindrome-number) |
 | [0062-unique-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0062-unique-paths) |
 | [0070-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0070-climbing-stairs) |
+| [0258-add-digits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0258-add-digits) |
 | [0264-ugly-number-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
 | [1500-count-largest-group](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1500-count-largest-group) |
@@ -812,4 +814,8 @@
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [3187-maximum-profitable-triplets-with-increasing-prices-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3187-maximum-profitable-triplets-with-increasing-prices-i) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
