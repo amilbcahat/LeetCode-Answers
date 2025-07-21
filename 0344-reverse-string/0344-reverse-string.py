@@ -3,11 +3,18 @@ class Solution:
         """
         Do not return anything, modify s in-place instead.
         """
-        l , r = 0 ,  len(s) - 1
+        n = len(s)
+        def rev_str(l):
+            nonlocal s
+            r = n - l - 1
 
-        while l < r : 
-            s[l] , s[r] = s[r] , s[l]
-            l += 1 
-            r -= 1
+            if l >= r: 
+                return 
 
-        
+            s[l], s[r] = s[r], s[l]
+
+            rev_str(l + 1)
+
+            return s
+
+        return rev_str(0)
