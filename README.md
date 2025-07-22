@@ -322,6 +322,7 @@
 | [0090-subsets-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0090-subsets-ii) |
 | [0231-power-of-two](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0231-power-of-two) |
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
+| [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
 | [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1993-sum-of-all-subset-xor-totals) |
@@ -520,6 +521,7 @@
 | [0258-add-digits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0258-add-digits) |
 | [0264-ugly-number-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
+| [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
 | [1500-count-largest-group](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1500-count-largest-group) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
@@ -835,5 +837,6 @@
 | [0203-remove-linked-list-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0231-power-of-two) |
+| [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
