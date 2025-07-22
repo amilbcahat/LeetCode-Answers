@@ -11,8 +11,6 @@ class Solution:
                 #odd
                 return False 
             else: 
-                return  poww(n // 2)
-
-            return res 
+                return poww(n // 2)
 
         return poww(n)
