@@ -4,7 +4,7 @@ class Solution:
         if n == 1 : 
             return True 
 
-        if n == 0 or n % 4: 
+        if n == 0: 
             return False 
 
         if n % 4: 
