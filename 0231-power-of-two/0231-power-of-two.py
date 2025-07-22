@@ -7,12 +7,11 @@ class Solution:
             if n == 0: 
                 return False              
 
-            res = False
             if (n & 1): 
                 #odd
                 return False 
             else: 
-                res = res or poww(n // 2)
+                return  poww(n // 2)
 
             return res 
 
