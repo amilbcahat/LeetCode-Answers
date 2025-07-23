@@ -521,6 +521,7 @@
 | [0258-add-digits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0258-add-digits) |
 | [0264-ugly-number-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0264-ugly-number-ii) |
 | [0268-missing-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0268-missing-number) |
+| [0326-power-of-three](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
 | [1500-count-largest-group](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1500-count-largest-group) |
@@ -837,6 +838,7 @@
 | [0203-remove-linked-list-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0206-reverse-linked-list) |
 | [0231-power-of-two](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0231-power-of-two) |
+| [0326-power-of-three](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0326-power-of-three) |
 | [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
 <!---LeetCode Topics End-->
