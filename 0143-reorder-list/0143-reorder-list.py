@@ -19,6 +19,7 @@ class Solution:
             if self.stop: 
                 return 
 
+            #Reach mid, now dont do anything and return
             if self.front == back or self.front.next == back: 
                 back.next = None
                 self.stop = True
