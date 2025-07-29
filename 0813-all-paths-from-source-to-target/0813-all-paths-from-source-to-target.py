@@ -1,5 +1,7 @@
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+        #Editorial please check always
+        # This will help in understanding that - https://math.stackexchange.com/a/3961816
         n = len(graph)
         res = []
         def dfs(node, path):
