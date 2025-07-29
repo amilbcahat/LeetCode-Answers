@@ -5,11 +5,13 @@ class Solution:
         def dfs(node, path):
             nonlocal res 
             if node == n - 1: 
-                res.append(path)
+                res.append(list(path))
                 return
 
             for nei in graph[node]: 
-                dfs(nei, path + [nei]) 
+                path.append(nei)
+                dfs(nei, path) 
+                path.pop()
 
         dfs(0, [0])
 
