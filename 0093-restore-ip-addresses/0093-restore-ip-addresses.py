@@ -11,11 +11,12 @@ class Solution:
                     res.append(".".join(cur))
                 return 
 
-            #include in last str 
+            #New number
             cur.append(s[i])
             dfs(i + 1, cur)
             cur.pop()
 
+            #include in last str 
             cur[-1] = str(int(cur[-1] + s[i]))
             if 0 <= int(cur[-1]) <= 255:
                 dfs(i + 1, cur)
