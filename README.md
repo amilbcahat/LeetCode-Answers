@@ -145,6 +145,7 @@
 | [0015-3sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0033-search-in-rotated-sorted-array) |
 | [0036-valid-sudoku](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0040-combination-sum-ii) |
 | [0041-first-missing-positive](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0041-first-missing-positive) |
@@ -310,6 +311,7 @@
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0046-permutations) |
@@ -405,6 +407,7 @@
 |  |
 | ------- |
 | [0036-valid-sudoku](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0037-sudoku-solver) |
 | [0074-search-a-2d-matrix](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0074-search-a-2d-matrix) |
 | [0130-surrounded-regions](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0130-surrounded-regions) |
 | [0200-number-of-islands](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0200-number-of-islands) |
@@ -428,6 +431,7 @@
 | ------- |
 | [0001-two-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0036-valid-sudoku) |
+| [0037-sudoku-solver](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0037-sudoku-solver) |
 | [0041-first-missing-positive](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0041-first-missing-positive) |
 | [0128-longest-consecutive-sequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0128-longest-consecutive-sequence) |
 | [0133-clone-graph](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0133-clone-graph) |
