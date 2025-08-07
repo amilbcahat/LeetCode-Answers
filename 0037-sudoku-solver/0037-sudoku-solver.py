@@ -10,7 +10,7 @@ class Solution:
 
         di = [[-1, 0], [1, 0], [0, 1], [0, -1]]
 
-        #PreProcess the board
+        #PreProcess the board (for intuition look at problem Valid Sudoku)
         for r in range(9): 
             for c in range(9): 
                 if board[r][c] == ".":
