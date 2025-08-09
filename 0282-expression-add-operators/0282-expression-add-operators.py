@@ -1,8 +1,7 @@
 class Solution:
     def addOperators(self, num: str, target: int) -> List[str]:
         res = []
-
-        def backtrack(i, curAns, cur): 
+        def backtrack(i, cur): 
             if i >= len(num):
                 if eval("".join(cur)) == target:
                     res.append("".join(cur))
@@ -12,19 +11,19 @@ class Solution:
             #place an operator:
                 for operand in "+-*":
                     cur.append(operand)
-                    backtrack(i, curAns, cur)
+                    backtrack(i, cur)
                     cur.pop()
             #extend the num 
                 if len(cur[-1]) == 1 and cur[-1] == "0":
                     return
                 cur[-1] = str(int(cur[-1] + num[i]))
-                backtrack(i + 1, curAns, cur)
+                backtrack(i + 1, cur)
             else: 
-                backtrack(i + 1, curAns, cur + [num[i]])
+                backtrack(i + 1, cur + [num[i]])
 
             return 
 
-        backtrack(0, 0, [])
+        backtrack(0, [])
         return res
 
 
