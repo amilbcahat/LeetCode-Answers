@@ -15,6 +15,7 @@ class Solution:
                     cur.pop()
             #extend the num 
                 if len(cur[-1]) == 1 and cur[-1] == "0":
+                    #avoid leading zeros
                     return
                 cur[-1] = str(int(cur[-1] + num[i]))
                 backtrack(i + 1, cur)
