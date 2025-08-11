@@ -1,6 +1,6 @@
 class Solution:
     def minCut(self, s: str) -> int:
-        
+        #to note point is memo should be with both recursive fns 
         memoPali = {}
         def isValidPali(start, end):
             if start >= end: 
