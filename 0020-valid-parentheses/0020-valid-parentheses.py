@@ -17,16 +17,12 @@ class Solution:
         stack = []
         skip = False
         for c in s: 
-            while stack and self.check(stack[-1], c): 
+            if stack and self.check(stack[-1], c): 
                 stack.pop()
                 skip = True 
-                break
-                # print(stack)
 
             if not skip: 
                 stack.append(c)
             skip = False
-            # print(stack)
 
-        # print(stack)
         return True if not stack else False
