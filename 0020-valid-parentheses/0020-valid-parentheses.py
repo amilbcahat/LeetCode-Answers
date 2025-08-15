@@ -1,28 +1,17 @@
 class Solution:
-    def check(self, top, c): 
-        if top == "(" and c == ")": 
-            return True 
-        elif top == "{" and c == "}":
-            return True 
-        elif top == "[" and c == "]": 
-            return True 
-
-        return False
-
-
     def isValid(self, s: str) -> bool:
-        if len(s) == 1: 
-            return False 
-
         stack = []
-        skip = False
-        for c in s: 
-            if stack and self.check(stack[-1], c): 
-                stack.pop()
-                skip = True 
+        mapping = { ")": "(", "]" : "[" , "}" : "{"}
 
-            if not skip: 
-                stack.append(c)
-            skip = False
+        for char in s: 
 
-        return True if not stack else False
+            if char in mapping: 
+                top = stack.pop() if stack else "#"
+
+                if top != mapping[char]: 
+                    return False
+
+            else: 
+                stack.append(char)
+
+        return not stack
