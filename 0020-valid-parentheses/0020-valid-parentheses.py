@@ -1,21 +1,32 @@
 class Solution:
+    def check(self, top, c): 
+        if top == "(" and c == ")": 
+            return True 
+        elif top == "{" and c == "}":
+            return True 
+        elif top == "[" and c == "]": 
+            return True 
+
+        return False
+
+
     def isValid(self, s: str) -> bool:
+        if len(s) == 1: 
+            return False 
+
         stack = []
-        closeToOpen = {
-            ")" : "(" , 
-            "}" : "{" , 
-            "]" : "["
-        }
+        skip = False
+        for c in s: 
+            while stack and self.check(stack[-1], c): 
+                stack.pop()
+                skip = True 
+                break
+                # print(stack)
 
-        for c in s : 
-            if c in closeToOpen : 
-                if stack and stack[-1] == closeToOpen[c] : 
-                    stack.pop()
-                else : 
-                    #mismatch 
-                    return False 
-
-            else : 
+            if not skip: 
                 stack.append(c)
+            skip = False
+            # print(stack)
 
+        # print(stack)
         return True if not stack else False
