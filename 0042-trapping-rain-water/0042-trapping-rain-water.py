@@ -1,52 +1,22 @@
 class Solution:
     def trap(self, height: List[int]) -> int:
-        if not height : 
-            return 0 
-        l , r = 0 , len(height) - 1
-        leftMax , rightMax = height[l], height[r] #moves on pointer 
-        res = 0 
+        #Good way to understand - https://claude.ai/public/artifacts/a2290447-5718-432c-8484-d20c0c2f335c
 
-        #Notice that we just need sum of min(l , r) - height[i]
-        #We take two pointer , we check which leftMax or rightMax is less , then add to sum
-        #It works just like min(l , r) , as if leftMax < rightMax , then we can surely , say that
-        #l had been smaller than some R on the right 
-        while l < r : 
-            #leftMax and rightMax are different than in last solution 
-            if leftMax < rightMax : 
-                l += 1 
-                leftMax = max(leftMax , height[l])
-                res += (leftMax - height[l])
-            else:
-                r -= 1 
-                rightMax = max(rightMax , height[r])
-                res += (rightMax - height[r])
+        ans = 0 
+        current = 0 
+        stack = [] #Monotonic stack to track indicies for longer bars
+        while current < len(height): 
+            while stack and height[current] > height[stack[-1]]: 
+                top = stack[-1] #last longer bar(this means that level under this has been covered for that plothole)
+                stack.pop()
+                if not stack: 
+                    break 
 
-        return res 
+                distance = current - stack[-1] - 1
+                bounded_height = min(height[current], height[stack[-1]]) - height[top] #We minus height of top to eliminate levels that have already been calculated
+                ans += distance * bounded_height
+            stack.append(current)
+            current += 1
 
-
-        # n = len(height)
-
-        # if n==0 : 
-        #     return 0 
-        
-        # left = [0]*n
-        # right = [0]*n 
-        # water = 0 
-        # left[0] = height[0]
-
-        # for i in range(1,n):
-        #     left[i] = max(left[i-1],height[i])
-        
-        # right[n-1] = height[n-1]
-        
-        # for i in range(n-2,-1,-1):
-        #     right[i] = max(right[i+1],height[i]) 
-
-        # for i in range(0 ,n):
-        #     # print(min(left[i], right[i]))
-        #     water += min(left[i], right[i]) -height[i]
-
-        # # print(height)
-        # # print(left)
-        # # print(right)
-        # return water 
+        return ans
+                
