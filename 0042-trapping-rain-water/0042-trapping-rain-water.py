@@ -7,14 +7,14 @@ class Solution:
         stack = [] #Monotonic stack to track indicies for longer bars
         while current < len(height): 
             while stack and height[current] > height[stack[-1]]: 
-                top = stack[-1] #last longer bar(this means that level under this has been covered for that plothole)
-                stack.pop()
+                bottom_idx = stack.pop() #last longer bar(this means that level under this has been covered for that plothole)
                 if not stack: 
-                    break 
-
-                distance = current - stack[-1] - 1
-                bounded_height = min(height[current], height[stack[-1]]) - height[top] #We minus height of top to eliminate levels that have already been calculated
-                ans += distance * bounded_height
+                    break
+                left_wall_idx = stack[-1]
+                right_wall_idx = current
+                width = right_wall_idx - left_wall_idx - 1
+                bounded_height = min(height[right_wall_idx], height[left_wall_idx]) - height[bottom_idx] #We minus height of top to eliminate levels that have already been calculated
+                ans += width * bounded_height
             stack.append(current)
             current += 1
 
