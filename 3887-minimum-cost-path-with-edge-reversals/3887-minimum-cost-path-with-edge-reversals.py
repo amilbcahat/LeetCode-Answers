@@ -1,5 +1,8 @@
 class Solution:
     def minCost(self, n: int, edges: List[List[int]]) -> int:
+        #Notes to myself, 
+        #Tried with dfs in contest , when needed to use djiskhtra
+        #Messed up in node cost as well 
         adj = defaultdict(list)
         for src, dst, cost in edges: 
             adj[src].append((dst, cost))
