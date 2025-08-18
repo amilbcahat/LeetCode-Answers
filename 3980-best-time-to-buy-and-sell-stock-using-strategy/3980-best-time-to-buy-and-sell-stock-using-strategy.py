@@ -1,6 +1,7 @@
 class Solution:
     def maxProfit(self, prices: List[int], strategy: List[int], k: int) -> int:
         # Explanation - https://leetcode.com/problems/best-time-to-buy-and-sell-stock-using-strategy/solutions/7090859/beats-100-simple-for-loop-easy-code-detailed-explanation-with-visual-diagram/
+        #Maintain sliding windows
         n = len(prices)
         h = k // 2
 
