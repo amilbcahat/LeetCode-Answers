@@ -5,19 +5,43 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        self.p1 = head 
+        #O(n) solution 
+        fast = slow = head
+        while fast and fast.next: 
+            slow = slow.next
+            fast = fast.next.next 
 
-        def recur_check(cur_node): 
-            if cur_node:
-                if not recur_check(cur_node.next):
-                    return False
+        prev = None
+        while slow: 
+            tmp = slow.next
+            slow.next = prev 
+            prev = slow
+            slow = tmp 
 
-                if self.p1.val != cur_node.val: 
-                    return False
+        left, right = head, prev 
+        while left and right: 
+            if left.val != right.val:
+                return False
+            left = left.next
+            right = right.next
 
-                self.p1 = self.p1.next
-            return True
+        return True
+        
 
-        return recur_check(head)
+        #Recursive Solution (not constant space)
+        # self.p1 = head 
+
+        # def recur_check(cur_node): 
+        #     if cur_node:
+        #         if not recur_check(cur_node.next):
+        #             return False
+
+        #         if self.p1.val != cur_node.val: 
+        #             return False
+
+        #         self.p1 = self.p1.next
+        #     return True
+
+        # return recur_check(head)
 
             
