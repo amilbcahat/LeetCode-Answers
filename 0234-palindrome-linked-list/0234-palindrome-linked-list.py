@@ -5,27 +5,42 @@
 #         self.next = next
 class Solution:
     def isPalindrome(self, head: Optional[ListNode]) -> bool:
-        #O(n) solution 
-        fast = slow = head
-        while fast and fast.next: 
-            slow = slow.next
-            fast = fast.next.next 
+        #Stack solution 
+        stack = []
+        cur = head
+        while cur: 
+            stack.append(cur.val)
+            cur = cur.next 
 
-        prev = None
-        while slow: 
-            tmp = slow.next
-            slow.next = prev 
-            prev = slow
-            slow = tmp 
+        cur = head
+        while cur and cur.val == stack.pop(): 
+            cur = cur.next 
 
-        left, right = head, prev 
-        while left and right: 
-            if left.val != right.val:
-                return False
-            left = left.next
-            right = right.next
+        return cur is None
+        # #O(n) solution 
+        # #Find middle
+        # fast = slow = head
+        # while fast and fast.next: 
+        #     slow = slow.next
+        #     fast = fast.next.next 
 
-        return True
+        # #Reverse second half
+        # prev = None
+        # while slow: 
+        #     tmp = slow.next
+        #     slow.next = prev 
+        #     prev = slow
+        #     slow = tmp 
+
+        # #Check for pali
+        # left, right = head, prev 
+        # while left and right: 
+        #     if left.val != right.val:
+        #         return False
+        #     left = left.next
+        #     right = right.next
+
+        # return True
         
 
         #Recursive Solution (not constant space)
