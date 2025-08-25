@@ -1,25 +1,49 @@
 class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
-        #Editorial Solution 1- 
+        #Editorial Solution 2- 
+
         N, M = len(mat), len(mat[0])
-        res, intermediate = [], []
+        res = []
 
         for d in range(N + M - 1): 
-            intermediate.clear()
-
-            r, c = 0 if d < M else d - M + 1, d if d < M else M - 1
-
-            while r < N and c > -1: 
-                intermediate.append(mat[r][c])
-                r += 1
-                c -= 1
-
             if d % 2 == 0: 
-                res.extend(intermediate[::-1])
+                #reverse 
+                r, c = d if d < N else N - 1 , 0 if d < N else d - N + 1 
+                while r > -1 and c < M:
+                    print(r, c)
+                    res.append(mat[r][c])
+                    r -= 1 
+                    c += 1
             else:
-                res.extend(intermediate)
+                r, c = 0 if d < M else d - M + 1, d if d < M else M - 1
+                while r < N and c > -1 :
+                    res.append(mat[r][c])
+                    r += 1
+                    c -= 1
 
         return res
+
+
+        #Editorial Solution 1- 
+        # N, M = len(mat), len(mat[0])
+        # res, intermediate = [], []
+
+        # for d in range(N + M - 1): 
+        #     intermediate.clear()
+
+        #     r, c = 0 if d < M else d - M + 1, d if d < M else M - 1
+
+        #     while r < N and c > -1: 
+        #         intermediate.append(mat[r][c])
+        #         r += 1
+        #         c -= 1
+
+        #     if d % 2 == 0: 
+        #         res.extend(intermediate[::-1])
+        #     else:
+        #         res.extend(intermediate)
+
+        # return res
 
 
         #My solution - 
