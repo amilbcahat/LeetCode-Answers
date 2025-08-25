@@ -1,5 +1,7 @@
 class Solution:
     def findDiagonalOrder(self, mat: List[List[int]]) -> List[int]:
+        #check n queens ques 
+        #intuition is that , pos diag elements in same diag are in r + c
         m, n = len(mat), len(mat[0])
         last = (m - 1) + (n - 1)
         diagMap = defaultdict(list)
