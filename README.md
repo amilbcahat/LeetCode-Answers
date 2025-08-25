@@ -194,6 +194,7 @@
 | [0480-sliding-window-median](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0480-sliding-window-median) |
 | [0493-reverse-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0493-reverse-pairs) |
 | [0494-target-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0494-target-sum) |
+| [0498-diagonal-traverse](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0498-diagonal-traverse) |
 | [0502-ipo](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0518-coin-change-ii) |
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
@@ -303,6 +304,7 @@
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0258-add-digits) |
+| [0498-diagonal-traverse](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0498-diagonal-traverse) |
 | [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [2048-build-array-from-permutation](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2048-build-array-from-permutation) |
 | [2132-convert-1d-array-into-2d-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2132-convert-1d-array-into-2d-array) |
@@ -415,6 +417,7 @@
 | [0302-smallest-rectangle-enclosing-black-pixels](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0302-smallest-rectangle-enclosing-black-pixels) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0417-pacific-atlantic-water-flow](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0417-pacific-atlantic-water-flow) |
+| [0498-diagonal-traverse](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0498-diagonal-traverse) |
 | [0695-max-area-of-island](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0695-max-area-of-island) |
 | [1036-rotting-oranges](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1036-rotting-oranges) |
 | [1099-path-with-maximum-minimum-value](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1099-path-with-maximum-minimum-value) |
