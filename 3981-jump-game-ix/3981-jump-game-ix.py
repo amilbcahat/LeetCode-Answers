@@ -24,3 +24,7 @@ class Solution:
                 res[i] = res[i + 1]
 
         return res
+    #Confusions - 
+    #Why res[i] = res[i + 1] , because it would be always constant or increasing res array?
+    #The reason is that since we are traversing from right to left, due to that, we could see bridges build up, then we can look at right and do res[i] = res[i + 1]
+    #but once bridge stops, the whatever pre[i... - 1] array is there , we know that bridge wont be created there as well, thats the reason res[i] = res[i + 1], will always be increasing or constant 
