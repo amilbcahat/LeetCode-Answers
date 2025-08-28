@@ -1,32 +1,51 @@
 class Solution:
     def decodeString(self, s: str) -> str:
-        #Stack 
-        stack = []
-
-        ans = ""
+        #2 Stack 
+        times = []
+        stack = [[]]
+        k = 0
         for c in s: 
-            decode = ""
-            if c == "]": 
-                while stack and stack[-1] != "[": 
-                    decode = stack.pop() + decode
-
-                multi = ""
-                if decode: 
-                    stack.pop() #Pop [
-                    while stack and stack[-1].isdigit(): 
-                        multi = stack.pop() + multi #Build multiplier
-                    
-                    stack.append(int(multi) * decode) #decode the string of this part
-                    
-            if c != "]": 
-                stack.append(c)
-
-        return "".join(stack)
-
+            if c.isnumeric(): 
+                k = int(c) + k * 10
+            elif c == "[": 
+                times.append(k)
+                stack.append([])
+                k = 0
+            elif c == "]": 
+                #decode
+                stack[-2].extend(times[-1] * stack[-1])
+                stack.pop()
+                times.pop()
+            else:
+                stack[-1].append(c)
         
-            
+        print(stack)
+        return "".join(stack[-1])
 
 
+
+        #1 Stack 
+        # stack = []
+
+        # ans = ""
+        # for c in s: 
+        #     decode = ""
+        #     if c == "]": 
+        #         while stack and stack[-1] != "[": 
+        #             decode = stack.pop() + decode
+
+        #         multi = ""
+        #         if decode: 
+        #             stack.pop() #Pop [
+        #             while stack and stack[-1].isdigit(): 
+        #                 multi = stack.pop() + multi #Build multiplier
+                    
+        #             stack.append(int(multi) * decode) #decode the string of this part
+                    
+        #     if c != "]": 
+        #         stack.append(c)
+
+        # return "".join(stack)
 
 
     # # #### SOLUTION 3, RECURSION ######################
