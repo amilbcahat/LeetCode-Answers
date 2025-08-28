@@ -12,11 +12,11 @@ class Solution:
 
                 multi = ""
                 if decode: 
-                    stack.pop()
+                    stack.pop() #Pop [
                     while stack and stack[-1].isdigit(): 
-                        multi = stack.pop() + multi
+                        multi = stack.pop() + multi #Build multiplier
                     
-                    stack.append(int(multi) * decode)
+                    stack.append(int(multi) * decode) #decode the string of this part
                     
             if c != "]": 
                 stack.append(c)
