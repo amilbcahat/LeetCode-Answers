@@ -18,7 +18,6 @@ class Solution:
 
                 c = (n) - d
                 r = n
-                print("next start",r, c ,"head", d, 0)
                 
                 while minHeap and r >=  0 and c >= 0: 
                     val = heapq.heappop(minHeap)
