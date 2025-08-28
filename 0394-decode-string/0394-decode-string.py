@@ -5,7 +5,6 @@ class Solution:
 
         ans = ""
         for c in s: 
-            print(stack)
             decode = ""
             if c == "]": 
                 while stack and stack[-1] != "[": 
@@ -19,9 +18,6 @@ class Solution:
                     
                     stack.append(int(multi) * decode)
                     
-
-                print(decode)
-
             if c != "]": 
                 stack.append(c)
 
