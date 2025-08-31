@@ -1,5 +1,7 @@
 class Solution:
     def score(self, cards: List[str], x: str) -> int:
+        #solution link -> https://leetcode.com/problems/two-letter-card-game/solutions/7139654/greedy-balancing-with-jokers-cleaner-rew-06du
+        #claude explanation -> https://claude.ai/chat/43114d76-ec8b-41f5-88d3-a92e7a3bf404
         x0_d, x1_d = {}, {}   # frequency maps for cards with x in pos0 and pos1
         x0, x1, jokers = 0, 0, 0
 
