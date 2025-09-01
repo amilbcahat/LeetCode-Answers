@@ -1,6 +1,6 @@
 class Solution:
     def maxAverageRatio(self, classes: List[List[int]], extraStudents: int) -> float:
-        #Here we need to get the maxProfit on increment, and then greedily add to the profits !!
+        #Here we need to get the maxProfit on increment, and then greedily add to the profits, then select that class for that iteration !!
         #Its very similar to djiskhtra on its working 
         maxHeap = []
         for stu, total in classes: 
