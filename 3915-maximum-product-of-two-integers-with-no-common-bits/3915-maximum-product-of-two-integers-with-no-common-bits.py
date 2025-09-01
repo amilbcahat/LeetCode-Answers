@@ -23,6 +23,7 @@ class Solution:
             complement = max_mask ^ num 
             partner = dp[complement]
             if partner > 0: 
-                max_prod = max(max_prod, num * partner)
+                if max_prod < num * partner: 
+                    max_prod = num * partner
 
         return max_prod
