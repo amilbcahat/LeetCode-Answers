@@ -553,6 +553,7 @@
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3321-type-of-triangle) |
+| [3830-find-closest-person](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3830-find-closest-person) |
 ## Dynamic Programming
 |  |
 | ------- |
