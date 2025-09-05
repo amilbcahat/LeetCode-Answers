@@ -1,5 +1,6 @@
 class Solution:
     def makeTheIntegerZero(self, num1: int, num2: int) -> int:
+#           Solution - https://leetcode.com/problems/minimum-operations-to-make-the-integer-zero/solutions/7156791/beats-100-0ms-bit-manipulation-full-explanation
         if num1 == 0: 
             return 0
 
