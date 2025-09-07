@@ -1,5 +1,7 @@
 class Solution:
     def sumZero(self, n: int) -> List[int]:
+        #Or can also append 0 when odd 
+        #or Can append -(sum of pos natural number) , when summed everything 
         if n == 1: 
             return [0]
         res = []
