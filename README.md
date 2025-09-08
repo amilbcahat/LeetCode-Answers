@@ -548,6 +548,7 @@
 | [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1440-convert-integer-to-the-sum-of-two-no-zero-integers](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1440-convert-integer-to-the-sum-of-two-no-zero-integers) |
 | [1448-maximum-69-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1448-maximum-69-number) |
 | [1500-count-largest-group](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1500-count-largest-group) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
