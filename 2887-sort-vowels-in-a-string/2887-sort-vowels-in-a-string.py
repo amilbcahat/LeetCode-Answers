@@ -1,5 +1,6 @@
 class Solution:
     def sortVowels(self, s: str) -> str:
+        #Counting sort
         count = [0] * 58
         s = list(s)
         for i, c in enumerate(s):
