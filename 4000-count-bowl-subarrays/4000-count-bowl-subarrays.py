@@ -18,6 +18,7 @@ class Solution:
 
             stack.append((n, i))
 
+        #This is very interesting , if condition is true due to constraint, of unique element, we are gauranteed to be incrementing !!
         ans = 0
         zipped = list(zip(left, right))
         for i in range(len(zipped)): 
