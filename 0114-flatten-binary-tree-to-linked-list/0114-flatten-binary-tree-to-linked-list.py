@@ -5,26 +5,65 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+
+    def flattenTree(self, node): 
+
+        # Handle the null scenario
+        if not node:
+            return None
+
+        # For a leaf node, we simply return the
+        # node as is.
+        if not node.left and not node.right:
+            return node
+
+        # Recursively flatten the left subtree
+        leftTail = self.flattenTree(node.left)
+
+        # Recursively flatten the right subtree
+        rightTail = self.flattenTree(node.right)
+
+        # If there was a left subtree, we shuffle the connections
+        # around so that there is nothing on the left side
+        # anymore.
+        if leftTail:
+            leftTail.right = node.right
+            node.right = node.left
+            node.left = None
+
+        # We need to return the "rightmost" node after we are
+        # done wiring the new connections.
+        return rightTail if rightTail else leftTail
+
+
+
     def flatten(self, root: Optional[TreeNode]) -> None:
         """
         Do not return anything, modify root in-place instead.
         """
-        stack = []
-        def preorder(node): 
-            if not node: 
-                return None 
+        #Approach 1 
+        # self.flattenTree(root)
 
-            stack.append(node)
-            preorder(node.left)
-            preorder(node.right)
+        #Approach 3 
+        # Handle the null scenario
+        if not root:
+            return None
 
-        preorder(root)
+        node = root
+        while node:
 
-        for i in range(len(stack) - 1): 
-            last = stack.pop()
-            stack[-1].right = last
-            stack[-1].left = None
-        
-        return stack[-1] if stack else None
+            # If the node has a left child
+            if node.left:
 
-            
+                # Find the rightmost node
+                rightmost = node.left
+                while rightmost.right:
+                    rightmost = rightmost.right
+
+                # rewire the connections
+                rightmost.right = node.right
+                node.right = node.left
+                node.left = None
+
+            # move on to the right side of the tree
+            node = node.right
