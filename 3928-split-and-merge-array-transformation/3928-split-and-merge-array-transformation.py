@@ -1,23 +1,45 @@
 class Solution:
     def minSplitMerge(self, nums1: List[int], nums2: List[int]) -> int:
-        #BFS 
-        q = deque([(0, nums1)])
+        #Layered BFS 
+        q = deque([(nums1)])
         visit = set()
+        steps = 0
         while q: 
-            steps, curr = q.popleft()
-            curr = list(curr)
-            if curr == nums2: 
-                return steps 
+            for _ in range(len(q)):
+                curr = q.popleft()
+                curr = list(curr)
+                if curr == nums2: 
+                    return steps 
 
-            for s in range(len(curr)): 
-                for e in range(s, len(curr)): 
-                    split = curr[s: e + 1]
-                    remainder = curr[:s] + curr[e + 1:]
-                    for index in range(len(remainder)): 
-                        new_per = tuple(remainder[:index] + split + remainder[index:])
-                        if new_per not in visit: 
-                            visit.add(new_per)
-                            q.append((steps + 1, new_per))
+                for s in range(len(curr)): 
+                    for e in range(s, len(curr)): 
+                        split = curr[s: e + 1]
+                        remainder = curr[:s] + curr[e + 1:]
+                        for index in range(len(remainder)): 
+                            new_per = tuple(remainder[:index] + split + remainder[index:])
+                            if new_per not in visit: 
+                                visit.add(new_per)
+                                q.append(new_per)
+            steps += 1
+
+        #BFS 
+        # q = deque([(0, nums1)])
+        # visit = set()
+        # while q: 
+        #     steps, curr = q.popleft()
+        #     curr = list(curr)
+        #     if curr == nums2: 
+        #         return steps 
+
+        #     for s in range(len(curr)): 
+        #         for e in range(s, len(curr)): 
+        #             split = curr[s: e + 1]
+        #             remainder = curr[:s] + curr[e + 1:]
+        #             for index in range(len(remainder)): 
+        #                 new_per = tuple(remainder[:index] + split + remainder[index:])
+        #                 if new_per not in visit: 
+        #                     visit.add(new_per)
+        #                     q.append((steps + 1, new_per))
 
 
         #DFS
