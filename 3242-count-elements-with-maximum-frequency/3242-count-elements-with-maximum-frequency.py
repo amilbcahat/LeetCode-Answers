@@ -7,7 +7,6 @@ class Solution:
 
         maxFreq = max(res)
         ans = 0
-        print(res)
         for freq in res: 
             if freq == maxFreq: 
                 ans += (freq)
