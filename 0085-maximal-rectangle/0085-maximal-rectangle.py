@@ -6,6 +6,7 @@ class Solution:
             for c in range(cols): 
                 matrix[r][c] = int(matrix[r][c])
 
+        #We are doing preSum over here
         for r in range(1, rows): 
             for c in range(cols): 
                 if matrix[r][c] == 0: 
