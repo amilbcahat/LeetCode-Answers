@@ -1,5 +1,6 @@
 class Solution:
     def maximalRectangle(self, matrix: List[List[str]]) -> int:
+        #Convert Matrix to Histograms
         rows, cols = len(matrix), len(matrix[0])
         for r in range(rows): 
             for c in range(cols): 
@@ -12,6 +13,7 @@ class Solution:
                 else: 
                     matrix[r][c] = matrix[r][c] + matrix[r - 1][c]
 
+        #ALGORITHM for largest rectange in histogram
         def getMaxForRow(arr): 
             stack = []
             maxArea = float("-inf")
@@ -29,6 +31,7 @@ class Solution:
 
             return maxArea
 
+        #Calculate the most max for each row of histogram
         res = 0
         for row in matrix: 
             res = max(res, getMaxForRow(row))
