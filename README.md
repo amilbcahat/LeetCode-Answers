@@ -278,6 +278,7 @@
 | [3187-maximum-profitable-triplets-with-increasing-prices-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3187-maximum-profitable-triplets-with-increasing-prices-i) |
 | [3209-minimum-number-of-coins-for-fruits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3209-minimum-number-of-coins-for-fruits) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3321-type-of-triangle](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3321-type-of-triangle) |
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
@@ -476,6 +477,7 @@
 | [2856-count-complete-subarrays-in-an-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2915-count-of-interesting-subarrays) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 ## Graph
 |  |
@@ -694,6 +696,7 @@
 | [1983-maximum-population-year](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1983-maximum-population-year) |
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
+| [3242-count-elements-with-maximum-frequency](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3242-count-elements-with-maximum-frequency) |
 ## Quickselect
 |  |
 | ------- |
