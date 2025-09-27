@@ -21,7 +21,6 @@ class Solution:
 
         curX = 0
         curY = 0
-        # k = len(s) - k
         for r in range(len(s)):
             if s[r] == "U": 
                 curY += 1
