@@ -1,6 +1,6 @@
 class Solution:
     def distinctPoints(self, s: str, k: int) -> int:
-
+        #Just use sliding window 
         got = set()
         x = 0
         y = 0 
