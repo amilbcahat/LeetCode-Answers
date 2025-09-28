@@ -22,9 +22,6 @@ class Solution:
                 break
             l = ll
 
-
-        # print(l, r, "k")
-
         #Not a valid mountain array
         if not (0 <= (r - l) <= 1):
             return -1
