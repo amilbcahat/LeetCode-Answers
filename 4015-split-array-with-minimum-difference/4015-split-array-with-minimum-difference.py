@@ -3,7 +3,6 @@ class Solution:
         n = len(nums)
         if n == 2: 
             return abs(nums[0] - nums[1])
-
             
         prefix = [0] * n 
 
