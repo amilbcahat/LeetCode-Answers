@@ -1,8 +1,6 @@
 class Solution:
     def splitArray(self, nums: List[int]) -> int:
         n = len(nums)
-        if n == 2: 
-            return abs(nums[0] - nums[1])
             
         prefix = [0] * n 
 
