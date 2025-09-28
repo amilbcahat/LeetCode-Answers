@@ -14,13 +14,11 @@ class Solution:
         for rr in range(n - 1, 0, -1):
             # print(nums[r], nums[r - 1])
             if not ((nums[r - 1] > nums[r])): 
-                print(nums[r ], nums[r], "r" )
                 break
             r = rr
 
         for ll in range(n - 1):
             if not ((nums[l] < nums[l + 1])):
-                print(nums[l], nums[l + 1], "l")
                 break
             l = ll
 
