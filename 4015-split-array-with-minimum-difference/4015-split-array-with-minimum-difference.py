@@ -21,6 +21,7 @@ class Solution:
                 break
             inc.append((i, nums[i]))
 
+        #Not a valid mountain array
         if not (0 <= (dec[-1][0] - inc[-1][0]) <= 1):
             return -1
 
