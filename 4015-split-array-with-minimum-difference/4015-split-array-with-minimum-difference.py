@@ -12,6 +12,7 @@ class Solution:
         l = 0 
         r = n - 1
         for rr in range(n - 1, 0, -1):
+            # print(nums[r], nums[r - 1])
             if not ((nums[r - 1] > nums[r])): 
                 break
             r = rr
