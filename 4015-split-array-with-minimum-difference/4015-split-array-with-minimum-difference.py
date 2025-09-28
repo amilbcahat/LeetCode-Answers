@@ -9,24 +9,28 @@ class Solution:
         for i in range(1, n): 
             prefix[i] = prefix[i - 1] + nums[i]
 
-        inc = []
-        dec = []
-        for i in range(n):
-            if dec and dec[-1][1] >= nums[n - 1 - i]: 
+        l = 0 
+        r = n - 1
+        for rr in range(n - 1, 0, -1):
+            # print(nums[r], nums[r - 1])
+            if not ((nums[r - 1] > nums[r])): 
+                print(nums[r ], nums[r], "r" )
                 break
-            dec.append((n - 1 - i, nums[n - 1 - i]))
+            r = rr
 
-        for i in range(n):
-            if inc and inc[-1][1] >= nums[i]: 
+        for ll in range(n - 1):
+            if not ((nums[l] < nums[l + 1])):
+                print(nums[l], nums[l + 1], "l")
                 break
-            inc.append((i, nums[i]))
+            l = ll
+
+
+        # print(l, r, "k")
 
         #Not a valid mountain array
-        if not (0 <= (dec[-1][0] - inc[-1][0]) <= 1):
+        if not (0 <= (r - l) <= 1):
             return -1
 
-        l = inc[-1][0]
-        r = dec[-1][0]
         if l == r: 
             pivot = l 
             return min(abs(prefix[pivot] - (prefix[n - 1] - prefix[pivot])), abs(prefix[pivot - 1] - (prefix[n - 1] - prefix[pivot - 1])))
