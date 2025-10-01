@@ -1,5 +1,6 @@
 class Solution:
     def minimumCost(self, n: int, connections: List[List[int]]) -> int:
+        #Prims Algo to find Min spanning tree -> 
         adj = defaultdict(list)
 
         for src, dst, w in connections: 
@@ -14,7 +15,6 @@ class Solution:
         visit.add(1)
 
         total = 0
-        mst = []
         while minHeap: 
             w, n1, n2 = heapq.heappop(minHeap)
 
@@ -22,13 +22,14 @@ class Solution:
                 continue 
 
             total += w
-            mst.append([n1, n2])
+
             visit.add(n2)
+
+            if len(visit) == n:
+                return total
+
             for nei, w in adj[n2]: 
                 if nei not in visit: 
                     heapq.heappush(minHeap, [w, n2, nei])
 
-        if len(visit) == n:
-            return total 
-        else:
-            return -1
+        return -1
