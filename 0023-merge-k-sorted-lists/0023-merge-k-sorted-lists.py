@@ -3,28 +3,49 @@
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
-class HeapNode: 
-    def __init__(self, node): 
-        self.node = node
-
-    def __gt__(self, other): 
-        return self.node.val > other.node.val
 class Solution:
-    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
-        minHeap = []
-        for head in lists: 
-            if head:
-                heapq.heappush(minHeap, HeapNode(head))
+    def mergeTwoLists(self, l1, l2):
+        cur = ListNode(0)
+        ans = cur 
 
-        dummy= ListNode(0)
-        cur = dummy
-        while minHeap: 
-            heap_node = heapq.heappop(minHeap)
-            node = heap_node.node
-            cur.next = node
-            cur = cur.next
+        while l1 and l2: 
+            if (l1.val > l2.val): 
+                cur.next = l2 
+                l2 = l2.next 
+            else: 
+                cur.next = l1
+                l1 = l1.next 
+            cur = cur.next 
 
-            if node.next: 
-                heapq.heappush(minHeap, HeapNode(node.next))
+        while l1: 
+            cur.next = l1
+            l1 = l1.next 
+            cur = cur.next 
 
-        return dummy.next
+        while l2: 
+            cur.next = l2
+            l2 = l2.next 
+            cur = cur.next 
+
+        return ans.next
+        
+    def mergeKLists(self, lists: List[ListNode]) -> [ListNode]:
+        if not len(lists):
+            return None
+
+        i = 0 
+        last = len(lists) - 1
+        j = last 
+
+        while (last != 0): 
+            i = 0 
+            j = last 
+            while j > i: 
+                lists[i] = self.mergeTwoLists(lists[i], lists[j])
+                i += 1
+                j -= 1
+                last = j 
+        
+        return lists[0]
+
+        
