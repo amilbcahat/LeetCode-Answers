@@ -18,11 +18,12 @@ class Solution:
         for num in nums: 
             count[num - minValue] += 1
 
-        res = []
-        for i in range(len(count)): 
-            res = res + ([i + minValue] * count[i])
+        for i in range(len(count) - 1, -1, -1): 
+            k -= count[i]
+            if k <= 0: 
+                return i + minValue
 
-        return res[-k]
+        return -1
 
         #New implementation check editorial (Hoare's to tackle duplicates) -> 
         # def quickselect(nums, k): 
