@@ -1,5 +1,6 @@
 class Solution:
     def longestSubsequence(self, nums: List[int]) -> int:
+        # Property of XOR: If A ^ B = 0, then A = B
         xor = 0 
         for num in nums: 
             xor ^= num 
