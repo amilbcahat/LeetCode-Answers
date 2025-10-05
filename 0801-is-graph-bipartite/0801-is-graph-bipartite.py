@@ -1,6 +1,8 @@
 class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
         visit = defaultdict(int)
+
+        @lru_cache
         def dfs(node, clr): 
             visit[node] = clr
             ans = True
