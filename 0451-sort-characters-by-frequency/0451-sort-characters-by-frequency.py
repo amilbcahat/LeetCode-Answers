@@ -1,17 +1,11 @@
 class Solution:
     def frequencySort(self, s: str) -> str:
-        countMap = Counter(s)
+        maxHeap = [(-val, key) for key, val in Counter(s).items()]
+        heapq.heapify(maxHeap)
 
-        minHeap = []
-        for item , val in countMap.items():
-            heapq.heappush(minHeap , (-val , item))
+        s = ""
+        while maxHeap: 
+            freq, key = heapq.heappop(maxHeap)
+            s += (key) * (-1 * freq)
 
-        res = ""
-        
-        while len(minHeap):
-
-            multiplier, poppedElem  = heapq.heappop(minHeap)
-            print(poppedElem , multiplier)
-            res += poppedElem * (multiplier * -1)
-        
-        return res 
+        return s
