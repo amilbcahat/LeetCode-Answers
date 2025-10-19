@@ -1,23 +1,23 @@
 class Solution:
-    def findMin(self, nums: List[int]) -> int:
-        l , r = 0 , len(nums) - 1 
-        res = nums[0]
+    def findMin(self, arr: List[int]) -> int:
+        def check(arr, mid): 
+            if arr[0] > arr[len(arr) - 1]:
+                if arr[0] > arr[mid]: 
+                    return  1 
+                return 0                
+            else:                   
+                return 1
+            
 
-        while l <= r :
-            #Array is already sorted  
-            if nums[l] < nums[r]:
-                res = min(res , nums[l])
-                break 
+        l = 0 
+        r = len(arr) - 1                    
+        res = float("inf")
+        while l <= r: 
+            mid = (l  + r) // 2
+            if check(arr, mid) == 1: 
+                r = mid - 1
+                res = arr[mid]
+            else:   
+                l = mid + 1         
 
-            mid = (l + r) // 2 
-            res = min(res , nums[mid])
-            if nums[mid] >= nums[l]:
-                #We are in left side 
-                #We want to move to right side to get smaller values 
-                l = mid + 1 
-            else : 
-                #If we are in right side 
-                #We want to move left , to find smaller values in right side itself ! 
-                r = mid - 1 
-
-        return res 
+        return res
