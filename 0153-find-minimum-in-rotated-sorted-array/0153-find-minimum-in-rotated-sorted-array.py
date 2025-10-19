@@ -1,5 +1,6 @@
 class Solution:
     def findMin(self, arr: List[int]) -> int:
+        #algozenith
         def check(arr, mid): 
             if arr[0] > arr[len(arr) - 1]:
                 if arr[0] > arr[mid]: 
