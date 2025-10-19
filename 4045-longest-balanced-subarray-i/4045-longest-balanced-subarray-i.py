@@ -9,7 +9,7 @@ class Solution:
             for j in range(i, n):
                 if nums[j] % 2 == 0 and nums[j] not in distinct:
                     even += 1
-                elif nums[j] % 2 and nums[j] not in distinct:
+                if nums[j] % 2 and nums[j] not in distinct:
                     odd += 1
 
                 distinct[nums[j]] += 1
