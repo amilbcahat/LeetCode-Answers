@@ -1,5 +1,6 @@
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
+        #BS on answer variant
         def check(k): 
             hours = 0 
             for p in piles: 
