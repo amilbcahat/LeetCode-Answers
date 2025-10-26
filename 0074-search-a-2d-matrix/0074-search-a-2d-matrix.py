@@ -7,7 +7,7 @@ class Solution:
         while l <= r: 
             mid = (l + r) // 2
             cr = mid // cols 
-            cc = mid - (cr * cols)
+            cc = mid - (cr * cols) #or cc = mid % c 
             if matrix[cr][cc] == target: 
                 return True 
             elif target <= matrix[cr][cc]: 
