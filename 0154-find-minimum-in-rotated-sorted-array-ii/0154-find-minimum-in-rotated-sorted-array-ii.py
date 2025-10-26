@@ -6,7 +6,6 @@ class Solution:
         
         while l <= r: 
             mid = (l + r) // 2
-            
             if arr[l] == arr[mid] == arr[r]:
                 res = min(res, arr[mid])
                 l += 1
