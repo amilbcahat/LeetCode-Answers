@@ -1,4 +1,4 @@
-<h2><a href="https://leetcode.com/problems/time-based-key-value-store">1023. Time Based Key-Value Store</a></h2><h3>Medium</h3><hr><p>Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&#39;s value at a certain timestamp.</p>
+<h2><a href="https://leetcode.com/problems/time-based-key-value-store/description/">1023. Time Based Key-Value Store</a></h2><h3>Medium</h3><hr><p>Design a time-based key-value data structure that can store multiple values for the same key at different time stamps and retrieve the key&#39;s value at a certain timestamp.</p>
 
 <p>Implement the <code>TimeMap</code> class:</p>
 
