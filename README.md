@@ -201,6 +201,7 @@
 | [0498-diagonal-traverse](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0498-diagonal-traverse) |
 | [0502-ipo](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0502-ipo) |
 | [0518-coin-change-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0518-coin-change-ii) |
+| [0540-single-element-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0540-single-element-in-a-sorted-array) |
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
@@ -641,6 +642,7 @@
 | [0410-split-array-largest-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0410-split-array-largest-sum) |
 | [0436-find-right-interval](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0436-find-right-interval) |
 | [0493-reverse-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0493-reverse-pairs) |
+| [0540-single-element-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0540-single-element-in-a-sorted-array) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [0792-binary-search](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0907-koko-eating-bananas) |
