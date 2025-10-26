@@ -1,5 +1,6 @@
 class Solution:
     def singleNonDuplicate(self, nums: List[int]) -> int:
+        #Different variant of BS to find the element
         #Answer is always where length is odd of search space
         l = 0 
         r = len(nums) - 1
