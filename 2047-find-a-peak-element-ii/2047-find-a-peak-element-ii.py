@@ -1,36 +1,39 @@
 class Solution:
     def findPeakGrid(self, mat: List[List[int]]) -> List[int]:
-        #Intuition is similar to that of Find Peak Element 
-        #The reason binary search works here even when its not sorted, is because , we are getting any peak element , and not the maximum peak element 
-        rows , cols = len(mat) , len(mat[0])
-        l , r = 0 , cols - 1
+        rows, cols = len(mat), len(mat[0])
+        di = [[1, 0], [-1, 0], [0, -1], [0, 1]]
 
-        def maxElement(col) : 
-            maxIndx = -1 
-            maxElem = float("-inf")
-            for i in range(rows):
-                if mat[i][col] > maxElem : 
-                    maxRowIndx = i 
-                    maxElem = mat[i][col]
-            return maxRowIndx
+        def valid(r, c): 
+            return (0 <= curR < rows) and (0 <= curC < cols)
 
-        #Row Wise , we get a mid column 
-        while l <= r : 
-            mid = (l + r) // 2 
-            #We get the maxElement index for that column (it assures a better rate of finding an element , that is peak , since it would be greater than top element and bottom element)
-            row = maxElement(mid)
+        for r in range(rows): 
+            for c in range(cols): 
+                flag = True 
+                for dr, dc in di: 
+                    curR = r + dr 
+                    curC = c + dc
+                    print(curR, curC, valid(curR, curC))
+                    if valid(curR, curC) and mat[curR][curC] > mat[r][c]: 
+                        flag = False
+                        break
+                    
+                if flag: 
+                    return [r, c]
 
-            #Get the left and right elements ,else consider them -1
-            left = mat[row][mid - 1] if mid > 0 else -1 
-            right = mat[row][mid + 1] if mid < len(mat[row]) - 1 else -1 
+                # break
 
-            #If left is at greater height , then means peak is there (inclination is better)
-            if mat[row][mid] < left : 
-                r = mid - 1
-            #Same logic just for right side 
-            elif mat[row][mid] < right : 
-                l = mid + 1
-            else : 
-                return [row , mid]
-        return [-1 , -1]
+                # if r - 1 >= 0: 
+                #     if mat[r - 1][c] > mat[r][c]: 
+                #         flag = False 
+                # if r + 1 < rows: 
+                #     if mat[r  + 1][c] > mat[r][c]: 
+                #         flag = False 
+                # if c - 1 >= 0: 
+                #     if mat[r][c - 1] > mat[r][c]: 
+                #         flag = False 
+                # if c + 1 < cols: 
+                #     if mat[r][c + 1] > mat[r][c]: 
+                #         flag = False 
 
+                # if flag: 
+                #     return [r, c]
