@@ -5,9 +5,11 @@ class Solution:
 
         while l <= r: 
             mid = (l + r) // 2
+            #positive slope
             if mid + 1 < len(nums) and nums[mid] < nums[mid + 1]: 
                 l = mid + 1
+            #negative slope 
             elif mid - 1 >= 0 and nums[mid - 1] > nums[mid]: 
                 r = mid - 1
             else: 
-                return mid 
+                return mid
