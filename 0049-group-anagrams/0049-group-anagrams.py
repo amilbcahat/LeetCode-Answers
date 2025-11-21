@@ -10,4 +10,5 @@ class Solution:
 
             res[tuple(count)].append(s)
 
-        return res.values()
+        print(res.values())
+        return list(res.values())
