@@ -5,9 +5,8 @@
 #         self.next = next
 class Solution:
     def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
-        #Recursion
         if not head: 
-            return None
+            return None 
 
         root = head
         newHead = None
@@ -16,20 +15,16 @@ class Solution:
             if not node: 
                 return None 
 
-            print(node.val)
             child = dfs(node.next)
-
-            if child: 
+            if child:
                 child.next = node
-            else: 
-                newHead = node
-            
+            else:
+                newHead = node 
+
             if node == root: 
                 root.next = None
 
-            return node
+            return node 
 
-        dfs(root)
-        # return head
+        dfs(head)
         return newHead
-
