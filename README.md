@@ -247,6 +247,7 @@
 | [1696-strange-printer-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1696-strange-printer-ii) |
 | [1706-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1753-path-with-minimum-effort) |
+| [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 | [1787-sum-of-absolute-differences-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1787-sum-of-absolute-differences-in-a-sorted-array) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -352,6 +353,7 @@
 | [0342-power-of-four](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0342-power-of-four) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
 | [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
+| [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 | [1993-sum-of-all-subset-xor-totals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1993-sum-of-all-subset-xor-totals) |
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2478-longest-nice-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2478-longest-nice-subarray) |
@@ -611,6 +613,7 @@
 | [0806-domino-and-tromino-tiling](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0806-domino-and-tromino-tiling) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
 | [1511-count-number-of-teams](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1511-count-number-of-teams) |
+| [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [2262-solving-questions-with-brainpower](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2262-solving-questions-with-brainpower) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2408-number-of-people-aware-of-a-secret) |
@@ -702,6 +705,7 @@
 | [1098-largest-unique-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1098-largest-unique-number) |
 | [1306-minimum-absolute-difference](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1306-minimum-absolute-difference) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
+| [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [2160-minimum-operations-to-make-a-uni-value-grid](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2160-minimum-operations-to-make-a-uni-value-grid) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -770,6 +774,7 @@
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0295-find-median-from-data-stream](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0295-find-median-from-data-stream) |
 | [1028-interval-list-intersections](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1028-interval-list-intersections) |
+| [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2392-successful-pairs-of-spells-and-potions) |
@@ -946,4 +951,8 @@
 |  |
 | ------- |
 | [0374-guess-number-higher-or-lower](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0374-guess-number-higher-or-lower) |
+## Bitmask
+|  |
+| ------- |
+| [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 <!---LeetCode Topics End-->
