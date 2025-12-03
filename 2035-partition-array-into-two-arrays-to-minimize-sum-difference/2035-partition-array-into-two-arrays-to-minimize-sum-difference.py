@@ -53,14 +53,12 @@ class Solution:
             if pos > 0: 
                 leftSum = subSum + rightMap[targetIdx][pos - 1]
                 rightSum = total - leftSum
-                # print("debug", subSum,targetIdx, rightMap[targetIdx], pos, rightSum, leftSum - rightSum  )
 
                 ans = min(ans, abs(leftSum - rightSum))
 
             if pos < len(rightMap[targetIdx]): 
                 leftSum = subSum + rightMap[targetIdx][pos]
                 rightSum = total - leftSum
-                # print("debug", subSum,targetIdx, rightMap[targetIdx][pos], rightSum,leftSum - rightSum  )
                 ans = min(ans, abs(leftSum - rightSum))
 
         for subSum, count in right: 
@@ -74,14 +72,12 @@ class Solution:
             if pos > 0: 
                 rightSum = subSum + leftMap[targetIdx][pos - 1]
                 leftSum = total - rightSum
-                # print("debug", subSum,targetIdx, leftMap[targetIdx][pos - 1], rightSum, leftSum - rightSum  )
 
                 ans = min(ans, abs(leftSum - rightSum))
 
             if pos < len(leftMap[targetIdx]): 
                 rightSum = subSum + leftMap[targetIdx][pos]
                 leftSum = total - rightSum
-                # print("debug", subSum,targetIdx, leftMap[targetIdx][pos], rightSum,leftSum - rightSum  )
                 ans = min(ans, abs(leftSum - rightSum))
               
         return ans
