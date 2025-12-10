@@ -2,21 +2,30 @@ class Solution:
     def kSmallestPairs(self, nums1: List[int], nums2: List[int], k: int) -> List[List[int]]:
         #Binary search
 
-        # k = 19
         #Count pair sum logic for any T sum 
         def count_pair_sum(T):
             #lets have nums[i] as rows and fix it
             j = len(nums1) - 1
             count = 0
             total = 0 
-            pair_selected = []
             for i in range(len(nums2)):
-                pairs = []
+                idx = -1
+                l = 0 
+                r = len(nums1) - 1
 
-                while j >= 0 and nums2[i] + nums1[j] > T:
-                    j -= 1
+                while l <= r: 
+                    mid = (l + r) // 2
+                    find = nums1[mid] + nums2[i]
+                    if find <= T:
+                        idx = mid
+                        l = mid + 1
+                    else: 
+                        r = mid - 1 
 
-                count += (j + 1)
+                # while j >= 0 and nums2[i] + nums1[j] > T:
+                #     j -= 1
+
+                count += (idx + 1)
                 
             return count
 
@@ -44,6 +53,7 @@ class Solution:
                 else:
                     break
         
+
         for i in range(len(nums2)):
             if len(res) >= k:
                 break
