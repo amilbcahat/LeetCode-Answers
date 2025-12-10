@@ -22,6 +22,7 @@ class Solution:
                     else: 
                         r = mid - 1 
 
+                #Two Ptr Approach
                 # while j >= 0 and nums2[i] + nums1[j] > T:
                 #     j -= 1
 
