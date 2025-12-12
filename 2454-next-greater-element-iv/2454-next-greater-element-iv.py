@@ -15,10 +15,5 @@ class Solution:
 
             stack.append(i)
 
-        # print(minHeap)
-        # while minHeap: 
-        #     elem, targetIdx = heapq.heappop(minHeap):
-        #     res[targetIdx] = -1
-
         return res
 
