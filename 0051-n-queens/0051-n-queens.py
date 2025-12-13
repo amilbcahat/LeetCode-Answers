@@ -1,31 +1,49 @@
 class Solution:
     def solveNQueens(self, n: int) -> List[List[str]]:
-        board = [["." for i in range(n)] for i in range(n)]
 
-        posDiag = set()
-        negDiag = set()
-        col = set()
-        res = []
-        def backtrack(r):
-            if r == n:
-                res.append(["".join(row) for row in board])
-                return 
+        arr = []
 
-            for c in range(n):
-                if c in col or (r + c) in posDiag or (r - c) in negDiag: 
-                    continue      
-                col.add(c)              
-                posDiag.add(r + c)
-                negDiag.add(r - c)
-                board[r][c] = "Q"                               
-                backtrack(r + 1)                             
-                board[r][c] = "."
-                col.remove(c)
-                posDiag.remove(r + c)
-                negDiag.remove(r - c)
+        #level means queen being placed
+        def check(c, arr): 
+            ri = len(arr)
+            for rIdx, colIdx in enumerate(arr):
+                if colIdx == c or abs(rIdx - ri) == abs(colIdx - c): 
+                    return False
 
-        backtrack(0)
+            return True
 
-        return res
-            
-        
+        def constructArr(arr):
+            board = []
+            #row
+            for r in range(n):
+                cur_row = ""
+                #col 
+                for c in range(n):
+                    if c == arr[r]:
+                        cur_row += "Q"
+                    else:
+                        cur_row += "."
+                board.append(cur_row)
+            return board
+
+
+
+        ans = []
+        def dfs(level, arr):
+            if level == n:
+                ans.append(constructArr(arr))
+                return 1 
+
+            res = 0
+            for colChoice in range(0, n): 
+                #
+                if check(colChoice, arr):
+                    arr.append(colChoice)
+                    res += dfs(level + 1, arr)
+                    arr.pop()
+
+            return res
+        dfs(0, arr)
+        return ans
+
+
