@@ -1,5 +1,18 @@
 class Solution:
     def exist(self, board: List[List[str]], word: str) -> bool:
+        ROWS, COLS = len(board), len(board[0])
+
+# 1.Pruning technique: if there's no enough chars to form a word, return False
+        board_count = Counter(c for row in board for c in row)
+        word_count = Counter(word)
+        for w in word:
+            if word_count[w] > board_count[w]:
+                return False
+
+# 2.Pruning technique: counting 1st & last char of word in board and 
+# if 1st char count is greater, reverse the word before calling dfs
+        if board_count[word[0]] > board_count[word[-1]]:
+            word = word[::-1]
         rows, cols = len(board), len(board[0])
         choices = [[1, 0], [0, 1], [-1, 0], [0, -1]]
         n = len(word)
