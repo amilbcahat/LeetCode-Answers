@@ -24,9 +24,6 @@ class Solution:
         print(nodes1, nodes2)
 
         for n in nodes1: 
-            # for t in nodes2: 
-            #     if (n + t) == target:
-            #         return True
             l = 0 
             r = len(nodes2) - 1
             while l <= r:
