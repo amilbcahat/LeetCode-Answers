@@ -1,20 +1,10 @@
 class Solution:
     def minMoves(self, balance: List[int]) -> int:
             
-        rightSide = 0 
-        leftSide = 0
-        observed = False
         targetIdx = float("-inf")
         for i, n in enumerate(balance): 
             if n < 0: 
-                observed = True 
-                val = n
                 targetIdx = i
-            else:
-                if observed: 
-                    rightSide += n
-                elif not observed: 
-                    leftSide += n
         
         if targetIdx == float("-inf"):
             return 0
