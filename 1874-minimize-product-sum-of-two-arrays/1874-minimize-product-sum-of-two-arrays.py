@@ -1,5 +1,6 @@
 class Solution:
     def minProductSum(self, nums1: List[int], nums2: List[int]) -> int:
+        #The intuition, greatest from nums2 should be product'ed with lowest from nums1 
         nums1.sort()
         nums2.sort(reverse=True)
         total = 0
