@@ -24,19 +24,19 @@ class Solution:
         print(nodes1, nodes2)
 
         for n in nodes1: 
-            for t in nodes2: 
-                if (n + t) == target:
-                    return True
-            # l = 0 
-            # r = len(nodes2) - 1
-            # while l <= r:
-            #     mid = (l + r) // 2
-            #     if nodes2[mid] + n == target:
-            #         return True 
-            #     elif target > nodes2[mid]: 
-            #         l = mid + 1
-            #     else:
-            #         r = mid - 1
+            # for t in nodes2: 
+            #     if (n + t) == target:
+            #         return True
+            l = 0 
+            r = len(nodes2) - 1
+            while l <= r:
+                mid = (l + r) // 2
+                if nodes2[mid] + n == target:
+                    return True 
+                elif target > nodes2[mid] + n: 
+                    l = mid + 1
+                else:
+                    r = mid - 1
 
         return False
 
