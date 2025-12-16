@@ -210,6 +210,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0695-max-area-of-island](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0695-max-area-of-island) |
+| [0706-design-hashmap](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0706-design-hashmap) |
 | [0724-find-pivot-index](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0747-min-cost-climbing-stairs) |
@@ -319,6 +320,7 @@
 | [0142-linked-list-cycle-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0142-linked-list-cycle-ii) |
 | [0203-remove-linked-list-elements](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0206-reverse-linked-list) |
+| [0706-design-hashmap](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0706-design-hashmap) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Simulation
@@ -485,6 +487,7 @@
 | [0621-task-scheduler](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0621-task-scheduler) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
+| [0706-design-hashmap](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0706-design-hashmap) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0964-minimize-malware-spread-ii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -822,6 +825,7 @@
 | [0307-range-sum-query-mutable](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0307-range-sum-query-mutable) |
 | [0346-moving-average-from-data-stream](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0346-moving-average-from-data-stream) |
 | [0359-logger-rate-limiter](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0359-logger-rate-limiter) |
+| [0706-design-hashmap](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0706-design-hashmap) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 ## Segment Tree
 |  |
@@ -971,4 +975,8 @@
 | [0805-split-array-with-same-average](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0805-split-array-with-same-average) |
 | [1755-closest-subsequence-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1755-closest-subsequence-sum) |
 | [2035-partition-array-into-two-arrays-to-minimize-sum-difference](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2035-partition-array-into-two-arrays-to-minimize-sum-difference) |
+## Hash Function
+|  |
+| ------- |
+| [0706-design-hashmap](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0706-design-hashmap) |
 <!---LeetCode Topics End-->
