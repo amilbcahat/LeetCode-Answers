@@ -1,37 +1,50 @@
+import "math"
+
 func minmaxGasDist(stations []int, k int) float64 {
-    left := 0.0
-    right := 0.0
     n := len(stations)
+    
+    // Find max gap
+    right := 0.0
     for i := 1; i < n; i++ {
-        gap := float64(stations[i] - stations[i - 1])
+        gap := float64(stations[i] - stations[i-1])
         if gap > right {
             right = gap
         }
     }
 
-    var check func(mid float64, stations []int, k int) bool
-    check = func(mid float64, stations []int, k int) bool {
-        needed := 0 
-        n := len(stations)
+    check := func(mid float64) bool {
+        needed := 0
         for p := 1; p < n; p++ {
             gap := float64(stations[p] - stations[p-1])
-            // Points needed = ceil(gap/mid) - 1 = floor(gap/mid) when gap > mid
-            needed += int(gap / mid)      
-        }  
-
+            needed += int(math.Ceil(gap/mid)) - 1  // ✅ Correct formula
+        }
         return needed <= k
     }
 
-    //In go float is handled like this
-    left = 1e-9
-    for i := 0; i < 100 ; i++ {
-        mid := (right + left) / 2 
-        if check(mid, stations, k){
+    // Float binary search
+    left := 1e-6
+    for i := 0; i < 100; i++ {
+        mid := (right + left) / 2
+        if check(mid) {
             right = mid
-        }else{
+        } else {
             left = mid
         }
     }
 
     return right
 }
+// ```
+
+// ---
+
+// ## The Bug Visualized
+// ```
+// Your formula:    gap + mid - 1 / mid
+//                  └─────┬─────┘
+//                        ↓
+//                  gap + mid - (1/mid)    ← Division first!
+
+// Example: gap=10, mid=3
+//   Your:    10 + 3 - (1/3) = 12.67  ❌
+//   Correct: (10 + 3 - 1) / 3 = 4    ✅
