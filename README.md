@@ -598,6 +598,7 @@
 | [3278-find-the-number-of-ways-to-place-people-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3278-find-the-number-of-ways-to-place-people-i) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3321-type-of-triangle](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3321-type-of-triangle) |
+| [3733-minimum-time-to-complete-all-deliveries](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3733-minimum-time-to-complete-all-deliveries) |
 | [3830-find-closest-person](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3830-find-closest-person) |
 ## Dynamic Programming
 |  |
@@ -682,6 +683,7 @@
 | [2690-house-robber-iv](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2690-house-robber-iv) |
 | [2699-count-the-number-of-fair-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2699-count-the-number-of-fair-pairs) |
 | [3643-zero-array-transformation-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3643-zero-array-transformation-ii) |
+| [3733-minimum-time-to-complete-all-deliveries](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3733-minimum-time-to-complete-all-deliveries) |
 ## Divide and Conquer
 |  |
 | ------- |
