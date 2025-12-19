@@ -6,7 +6,6 @@
 #         self.right = right
 class Solution:
     def longestConsecutive(self, root: Optional[TreeNode]) -> int:
-        par = {}
 
         ans = 1
 
