@@ -14,8 +14,6 @@ class Solution:
             if not node:
                 return 
 
-            # print(par, node.val, seq, par + 1 == node.val)
-
             if par + 1 == node.val :
                 seq += 1
             else:
