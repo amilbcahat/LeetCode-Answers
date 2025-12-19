@@ -215,6 +215,7 @@
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
 | [0747-min-cost-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0747-min-cost-climbing-stairs) |
 | [0761-employee-free-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0761-employee-free-time) |
+| [0774-minimize-max-distance-to-gas-station](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0774-minimize-max-distance-to-gas-station) |
 | [0792-binary-search](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0792-binary-search) |
 | [0805-split-array-with-same-average](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0805-split-array-with-same-average) |
 | [0880-rectangle-area-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0880-rectangle-area-ii) |
@@ -668,6 +669,7 @@
 | [0493-reverse-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0493-reverse-pairs) |
 | [0540-single-element-in-a-sorted-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0540-single-element-in-a-sorted-array) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
+| [0774-minimize-max-distance-to-gas-station](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0774-minimize-max-distance-to-gas-station) |
 | [0792-binary-search](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0907-koko-eating-bananas) |
 | [1099-path-with-maximum-minimum-value](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1099-path-with-maximum-minimum-value) |
