@@ -223,6 +223,7 @@
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0964-minimize-malware-spread-ii) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0982-minimum-increment-to-make-array-unique) |
+| [1004-max-consecutive-ones-iii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1004-max-consecutive-ones-iii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1028-interval-list-intersections](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1028-interval-list-intersections) |
 | [1034-subarrays-with-k-different-integers](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1034-subarrays-with-k-different-integers) |
@@ -672,6 +673,7 @@
 | [0774-minimize-max-distance-to-gas-station](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0774-minimize-max-distance-to-gas-station) |
 | [0792-binary-search](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0792-binary-search) |
 | [0907-koko-eating-bananas](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0907-koko-eating-bananas) |
+| [1004-max-consecutive-ones-iii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1004-max-consecutive-ones-iii) |
 | [1099-path-with-maximum-minimum-value](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1099-path-with-maximum-minimum-value) |
 | [1335-maximum-candies-allocated-to-k-children](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1335-maximum-candies-allocated-to-k-children) |
 | [1408-find-the-smallest-divisor-given-a-threshold](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1408-find-the-smallest-divisor-given-a-threshold) |
@@ -769,6 +771,7 @@
 | [0410-split-array-largest-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0410-split-array-largest-sum) |
 | [0724-find-pivot-index](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
+| [1004-max-consecutive-ones-iii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1004-max-consecutive-ones-iii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
@@ -861,6 +864,7 @@
 | [0239-sliding-window-maximum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0239-sliding-window-maximum) |
 | [0480-sliding-window-median](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0480-sliding-window-median) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [1004-max-consecutive-ones-iii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1004-max-consecutive-ones-iii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1034-subarrays-with-k-different-integers) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
