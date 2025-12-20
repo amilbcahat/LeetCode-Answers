@@ -12,34 +12,20 @@ class Solution:
     def connect(self, root: 'Optional[Node]') -> 'Optional[Node]':
         #nxt here means nxt level to start from!
 
-        # cur, nxt = root, root.left if root else None 
-        # while cur and nxt: 
-        #     cur.left.next = cur.right
+        cur, nxt = root, root.left if root else None 
+        while cur and nxt: 
+            cur.left.next = cur.right
 
-        #     if cur.next: 
-        #         cur.right.next = cur.next.left
+            if cur.next: 
+                cur.right.next = cur.next.left
 
-        #     cur = cur.next 
-        #     if not cur: 
-        #         cur = nxt
-        #         nxt = cur.left 
+            cur = cur.next 
+            if not cur: 
+                cur = nxt
+                nxt = cur.left 
 
-        # return root
-        q = deque([root])
-        while q: 
-            size = len(q)
-            for i in range(len(q)): 
-                node = q.popleft()
+        return root
 
-                if i < size - 1: 
-                    node.next = q[0]
-
-                if node and node.left: 
-                    q.append(node.left)
-                if node and node.right:
-                    q.append(node.right)
-
-        return root 
         # q = deque([root])
 
         # while q: 
