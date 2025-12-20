@@ -21,8 +21,6 @@ class Iterator:
                 pop = pop.left
         return ans.val
 
-
-
 class Solution:
     def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
         inorder = Iterator(root)
@@ -34,4 +32,22 @@ class Solution:
 
         
 
-        
+        # res = None
+        # def inorder(node) : 
+        #     nonlocal k 
+        #     nonlocal res
+        #     if not node : 
+        #         return 
+            
+        #     inorder(node.left)
+        #     k -= 1 
+        #     if k == 0 : 
+        #         res = node.val
+        #         print(node)
+        #         return 
+        #     inorder(node.right)
+
+        # inorder(root)
+
+        # print(res)
+        # return res
