@@ -6,15 +6,15 @@
 #         self.right = right
 class Solution:
     def levelOrderBottom(self, root: Optional[TreeNode]) -> List[List[int]]:    
-        levels = []
+        levels = deque()
         if not root: 
-            return levels
+            return []
 
         def dfs(node, level): 
             if len(levels) == level: 
-                levels.append([])
+                levels.appendleft([])
 
-            levels[level].append(node.val)
+            levels[len(levels) - level - 1].append(node.val)
 
             if node.left: 
                 dfs(node.left, level + 1)
@@ -23,7 +23,7 @@ class Solution:
                 dfs(node.right, level + 1)
 
         dfs(root, 0)
-        return levels[::-1]
+        return list(levels)
 
         
         # Through Level Order Travsersal
