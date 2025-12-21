@@ -24,7 +24,7 @@ class Solution:
         # allPathsToTarget(currNode)={currNode+allPathsToTarget(nextNode)}
         target = len(graph) - 1
 
-        # @lru_cache(maxsize=None)
+        @lru_cache(maxsize=None)
         def all_paths_to_target(node): 
             if node == target: 
                 return [[target]]
