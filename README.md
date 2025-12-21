@@ -576,6 +576,7 @@
 | [3348-minimum-cost-walk-in-weighted-graph](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3348-minimum-cost-walk-in-weighted-graph) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Minimum Spanning Tree
 |  |
 | ------- |
@@ -616,6 +617,7 @@
 | [3209-minimum-number-of-coins-for-fruits](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3209-minimum-number-of-coins-for-fruits) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Shortest Path
 |  |
 | ------- |
@@ -627,6 +629,7 @@
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
+| [3650-minimum-cost-path-with-edge-reversals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3650-minimum-cost-path-with-edge-reversals) |
 ## Math
 |  |
 | ------- |
