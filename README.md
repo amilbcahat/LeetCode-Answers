@@ -389,6 +389,7 @@
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
@@ -419,6 +420,7 @@
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
@@ -536,6 +538,7 @@
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
@@ -576,6 +579,7 @@
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
 | [0761-employee-free-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0761-employee-free-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0787-cheapest-flights-within-k-stops) |
 | [1099-path-with-maximum-minimum-value](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1099-path-with-maximum-minimum-value) |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
@@ -593,6 +597,7 @@
 | ------- |
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0787-cheapest-flights-within-k-stops) |
 | [2090-number-of-ways-to-arrive-at-destination](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2090-number-of-ways-to-arrive-at-destination) |
 | [3627-find-minimum-time-to-reach-last-room-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3627-find-minimum-time-to-reach-last-room-i) |
 | [3628-find-minimum-time-to-reach-last-room-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3628-find-minimum-time-to-reach-last-room-ii) |
@@ -645,6 +650,7 @@
 | [0646-maximum-length-of-pair-chain](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0646-maximum-length-of-pair-chain) |
 | [0673-number-of-longest-increasing-subsequence](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0673-number-of-longest-increasing-subsequence) |
 | [0747-min-cost-climbing-stairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0747-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0805-split-array-with-same-average](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0805-split-array-with-same-average) |
 | [0806-domino-and-tromino-tiling](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0806-domino-and-tromino-tiling) |
 | [1013-fibonacci-number](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1013-fibonacci-number) |
