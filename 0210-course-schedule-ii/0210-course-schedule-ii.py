@@ -1,34 +1,35 @@
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
-
         preMap = defaultdict(list)
 
-        for src, dist in prerequisites: 
-            preMap[src].append(dist)
+        for src, pre in prerequisites:
+            preMap[src].append(pre)
 
-        cycle , visited = set(), set()
-        topSort = []
-        def dfs(src): 
-            if src in cycle: 
-                return False
+        cycle, visited = set(), set()
+        topsort = []
 
-            if src in visited: 
-                return True
+        def dfs(crs):
+            if crs in cycle:
+                return False 
 
-            cycle.add(src)
- 
-            for nei in preMap[src]:
-                if not dfs(nei):
-                    return False
-            cycle.remove(src)
-            visited.add(src)
-            topSort.append(src)
+            if crs in visited:
+                return True 
+
+            cycle.add(crs)
+
+            for pree in preMap[crs]:
+                if not dfs(pree):
+                    return False 
+
+            cycle.remove(crs)
+            visited.add(crs)
+            topsort.append(crs)
 
             return True 
 
+        for i in range(numCourses):
+            if not dfs(i):
+                return [] 
 
-        for i in range(numCourses): 
-            if not dfs(i): 
-                return []
-
-        return topSort
+        return topsort 
+        
