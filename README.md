@@ -388,6 +388,7 @@
 | [0695-max-area-of-island](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
@@ -417,6 +418,7 @@
 | [0695-max-area-of-island](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0695-max-area-of-island) |
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
@@ -439,6 +441,7 @@
 | [0547-number-of-provinces](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0684-redundant-connection) |
 | [0695-max-area-of-island](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0695-max-area-of-island) |
+| [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0964-minimize-malware-spread-ii) |
@@ -532,6 +535,7 @@
 | [0684-redundant-connection](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0684-redundant-connection) |
 | [0743-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0744-network-delay-time) |
+| [0785-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0801-is-graph-bipartite) |
 | [0813-all-paths-from-source-to-target](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0813-all-paths-from-source-to-target) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
