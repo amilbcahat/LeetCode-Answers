@@ -244,6 +244,7 @@
 | [1525-queries-on-a-permutation-with-key](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1525-queries-on-a-permutation-with-key) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
 | [1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1549-longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit) |
+| [1584-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1584-min-cost-to-connect-all-points) |
 | [1604-least-number-of-unique-integers-after-k-removals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1604-least-number-of-unique-integers-after-k-removals) |
 | [1605-minimum-number-of-days-to-make-m-bouquets](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1605-minimum-number-of-days-to-make-m-bouquets) |
 | [1622-max-value-of-equation](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1622-max-value-of-equation) |
@@ -460,6 +461,7 @@
 | [1135-connecting-cities-with-minimum-cost](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1135-connecting-cities-with-minimum-cost) |
 | [1319-number-of-operations-to-make-network-connected](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1319-number-of-operations-to-make-network-connected) |
 | [1442-number-of-operations-to-make-network-connected](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1442-number-of-operations-to-make-network-connected) |
+| [1584-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1706-min-cost-to-connect-all-points) |
 | [1753-path-with-minimum-effort](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1753-path-with-minimum-effort) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
@@ -563,6 +565,7 @@
 | [1442-number-of-operations-to-make-network-connected](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1442-number-of-operations-to-make-network-connected) |
 | [1462-course-schedule-iv](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1462-course-schedule-iv) |
 | [1514-path-with-maximum-probability](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1514-path-with-maximum-probability) |
+| [1584-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1584-min-cost-to-connect-all-points) |
 | [1696-strange-printer-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1696-strange-printer-ii) |
 | [1706-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1706-min-cost-to-connect-all-points) |
 | [1815-checking-existence-of-edge-length-limited-paths](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1815-checking-existence-of-edge-length-limited-paths) |
@@ -577,6 +580,7 @@
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1100-connecting-cities-with-minimum-cost) |
 | [1135-connecting-cities-with-minimum-cost](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1135-connecting-cities-with-minimum-cost) |
+| [1584-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1584-min-cost-to-connect-all-points) |
 | [1706-min-cost-to-connect-all-points](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1706-min-cost-to-connect-all-points) |
 ## Heap (Priority Queue)
 |  |
