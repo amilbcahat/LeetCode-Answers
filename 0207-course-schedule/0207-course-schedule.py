@@ -15,7 +15,7 @@ class Solution:
             visited.add(node)
 
             for nei in adj[node]:
-                if not dfs(pre):
+                if not dfs(nei):
                     return False 
 
             visited.remove(node)
