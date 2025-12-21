@@ -1,6 +1,6 @@
 class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
-        adj = defaultdict(list)
+        adj = {i:[] for i in range(numCourses)}
         for src, pre in prerequisites: 
             adj[src].append(pre)
 
@@ -9,7 +9,7 @@ class Solution:
             if node in visited:
                 return False 
 
-            if not adj[node]: 
+            if adj[node] == [ ]: 
                 return True 
 
             visited.add(node)
