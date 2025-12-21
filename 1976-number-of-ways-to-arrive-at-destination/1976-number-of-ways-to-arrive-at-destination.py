@@ -30,7 +30,7 @@ class Solution:
             if node == n - 1 and t == shortest[n - 1]:
                 return 1 
 
-            #This is the main check, 
+            #This is the main check, it ensures, we move on the same path that minHeap moved
             if shortest[node] != t:
                 return 0
 
