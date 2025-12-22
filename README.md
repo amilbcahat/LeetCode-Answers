@@ -222,6 +222,7 @@
 | [0805-split-array-with-same-average](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0805-split-array-with-same-average) |
 | [0880-rectangle-area-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0880-rectangle-area-ii) |
 | [0907-koko-eating-bananas](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0907-koko-eating-bananas) |
+| [0930-binary-subarrays-with-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0930-binary-subarrays-with-sum) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0964-minimize-malware-spread-ii) |
 | [0982-minimum-increment-to-make-array-unique](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0982-minimum-increment-to-make-array-unique) |
@@ -521,6 +522,7 @@
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0645-set-mismatch](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0645-set-mismatch) |
 | [0706-design-hashmap](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0706-design-hashmap) |
+| [0930-binary-subarrays-with-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0930-binary-subarrays-with-sum) |
 | [0960-minimize-malware-spread](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0960-minimize-malware-spread) |
 | [0964-minimize-malware-spread-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0964-minimize-malware-spread-ii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
@@ -833,6 +835,7 @@
 | [0560-subarray-sum-equals-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0724-find-pivot-index) |
 | [0731-my-calendar-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0731-my-calendar-ii) |
+| [0930-binary-subarrays-with-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1004-max-consecutive-ones-iii) |
 | [1016-subarray-sums-divisible-by-k](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1016-subarray-sums-divisible-by-k) |
 | [1435-xor-queries-of-a-subarray](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1435-xor-queries-of-a-subarray) |
@@ -927,6 +930,7 @@
 | [0239-sliding-window-maximum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0239-sliding-window-maximum) |
 | [0480-sliding-window-median](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0480-sliding-window-median) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0930-binary-subarrays-with-sum](https://github.com/amilbcahat/LeetCode-Answers/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1004-max-consecutive-ones-iii) |
 | [1034-subarrays-with-k-different-integers](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1034-subarrays-with-k-different-integers) |
 | [1538-maximum-points-you-can-obtain-from-cards](https://github.com/amilbcahat/LeetCode-Answers/tree/master/1538-maximum-points-you-can-obtain-from-cards) |
