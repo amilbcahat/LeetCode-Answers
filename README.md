@@ -296,6 +296,7 @@
 | [2868-continuous-subarrays](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2868-continuous-subarrays) |
 | [2888-minimum-index-of-a-valid-split](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2888-minimum-index-of-a-valid-split) |
 | [2915-count-of-interesting-subarrays](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2915-count-of-interesting-subarrays) |
+| [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3152-maximum-value-of-an-ordered-triplet-ii](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3152-maximum-value-of-an-ordered-triplet-ii) |
 | [3154-maximum-value-of-an-ordered-triplet-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3154-maximum-value-of-an-ordered-triplet-i) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
@@ -947,6 +948,7 @@
 | [2527-count-subarrays-with-fixed-bounds](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2527-count-subarrays-with-fixed-bounds) |
 | [2856-count-complete-subarrays-in-an-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2856-count-complete-subarrays-in-an-array) |
 | [2868-continuous-subarrays](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2868-continuous-subarrays) |
+| [2962-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2962-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3213-count-subarrays-where-max-element-appears-at-least-k-times](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3213-count-subarrays-where-max-element-appears-at-least-k-times) |
 | [3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3475-minimum-operations-to-make-binary-array-elements-equal-to-one-i) |
 ## Merge Sort
