@@ -1,14 +1,24 @@
 class Solution:
     def uniquePaths(self, m: int, n: int) -> int:
-        row = [1] * n 
+        dp = {}
+        def dfs(r, c):
+            if r == m - 1 and c == n - 1: 
+                return 1 
 
-        for i in range(m - 1) :
-            #for right most value 
-            newRow = [1] * n 
-            for j in range(n - 2 , -1 , -1) : 
-                #Skipped last value to account for 1 base case at end of each row 
-                newRow[j] = newRow[j + 1] + row[j]
+            if r < 0 or r >= m or c < 0 or c >= n:
+                return 0 
 
-            row = newRow
+            if (r, c) in dp:
+                return dp[(r, c)]
 
-        return row[0]
+            res = 0
+            res += dfs(r + 1, c)
+            res += dfs(r, c + 1)
+
+            dp[(r, c)] = res
+
+            return res 
+
+        return dfs(0, 0)
+
+            
