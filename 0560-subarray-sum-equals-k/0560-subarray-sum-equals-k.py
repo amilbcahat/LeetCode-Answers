@@ -6,8 +6,7 @@ class Solution:
 
         for n in nums : 
             curSum += n 
-            diff = curSum - k #part that if chopped off (calculated from start) , sums up to k 
-            res += prefixSum.get(diff , 0) #If that prefix chop can happen and is available , then it would be added to result
-            prefixSum[curSum] = 1 + prefixSum.get(curSum , 0)
-
+            diff = curSum - k
+            res += prefixSum.get(diff, 0)
+            prefixSum[curSum] = 1 + prefixSum.get(curSum, 0)
         return res 
