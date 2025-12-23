@@ -16,19 +16,37 @@ class Solution:
         # for i in coins : 
         #     dp[i] = 1
 
-        def getResult(amount):
-            if amount == 0 : 
+        # def getResult(amount):
+        #     if amount == 0 : 
+        #         return 0 
+
+        #     if amount in dp : 
+        #         return dp[amount]
+            
+        #     k = float("inf")
+        #     for c in coins : 
+        #         if amount - c >= 0 : 
+        #             k = min(k , 1+getResult(amount-c))
+
+        #     dp[amount] = k 
+        #     return dp[amount]
+        # print(dp)
+        # return getResult(amount) if getResult(amount) != float("inf") else -1 
+
+        def dfs(amount):
+            if amount == 0: 
                 return 0 
 
-            if amount in dp : 
+            if amount in dp:
                 return dp[amount]
-            
-            k = float("inf")
-            for c in coins : 
-                if amount - c >= 0 : 
-                    k = min(k , 1+getResult(amount-c))
 
-            dp[amount] = k 
+            k = float("inf")
+            for c in coins: 
+                if amount - c >= 0: 
+                    k = min(k, 1 + dfs(amount - c))
+
+            dp[amount] = k
             return dp[amount]
-        print(dp)
-        return getResult(amount) if getResult(amount) != float("inf") else -1 
+
+        dfs(amount)
+        return dfs(amount) if dfs(amount) != float("inf") else -1
