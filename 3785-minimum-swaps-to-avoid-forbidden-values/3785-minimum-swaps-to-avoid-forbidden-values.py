@@ -50,7 +50,6 @@ class Solution:
         #Only one would be left here 
         lastFreq, lastVal = heapq.heappop(maxHeap)
         lastFreq = -lastFreq
-        print(swaps, goodMap, maxHeap, lastVal, lastFreq)
 
         for key in goodMap:
             if lastFreq <= 0:
