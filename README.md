@@ -318,6 +318,7 @@
 | [3657-check-if-grid-can-be-cut-into-sections](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3657-check-if-grid-can-be-cut-into-sections) |
 | [3685-count-subarrays-of-length-three-with-a-condition](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3685-count-subarrays-of-length-three-with-a-condition) |
 | [3748-sort-matrix-by-diagonals](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3748-sort-matrix-by-diagonals) |
+| [3785-minimum-swaps-to-avoid-forbidden-values](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3785-minimum-swaps-to-avoid-forbidden-values) |
 ## Linked List
 |  |
 | ------- |
@@ -544,6 +545,7 @@
 | [2915-count-of-interesting-subarrays](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2915-count-of-interesting-subarrays) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3242-count-elements-with-maximum-frequency) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3785-minimum-swaps-to-avoid-forbidden-values](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3785-minimum-swaps-to-avoid-forbidden-values) |
 ## Graph
 |  |
 | ------- |
@@ -824,6 +826,7 @@
 | [2308-divide-array-into-equal-pairs](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2308-divide-array-into-equal-pairs) |
 | [2614-maximum-count-of-positive-integer-and-negative-integer](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2614-maximum-count-of-positive-integer-and-negative-integer) |
 | [3242-count-elements-with-maximum-frequency](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3242-count-elements-with-maximum-frequency) |
+| [3785-minimum-swaps-to-avoid-forbidden-values](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3785-minimum-swaps-to-avoid-forbidden-values) |
 ## Quickselect
 |  |
 | ------- |
@@ -897,6 +900,7 @@
 | [2212-removing-minimum-and-maximum-from-array](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2212-removing-minimum-and-maximum-from-array) |
 | [2681-put-marbles-in-bags](https://github.com/amilbcahat/LeetCode-Answers/tree/master/2681-put-marbles-in-bags) |
 | [3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3171-minimum-equal-sum-of-two-arrays-after-replacing-zeros) |
+| [3785-minimum-swaps-to-avoid-forbidden-values](https://github.com/amilbcahat/LeetCode-Answers/tree/master/3785-minimum-swaps-to-avoid-forbidden-values) |
 ## Design
 |  |
 | ------- |
